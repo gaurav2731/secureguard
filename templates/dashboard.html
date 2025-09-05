@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SecureGuard Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>🔐 SecureGuard AI Firewall</h1>
+
+    <div class="card">
+        <h2>Controls</h2>
+        <form method="POST" action="/block">
+            <input type="text" name="ip" placeholder="Enter IP to block">
+            <button class="btn btn-red" type="submit">Block IP</button>
+        </form>
+        <form method="POST" action="/unblock">
+            <input type="text" name="ip" placeholder="Enter IP to unblock">
+            <button class="btn btn-green" type="submit">Unblock IP</button>
+        </form>
+        <a href="/shutdown"><button class="btn btn-red">🚨 Emergency Shutdown</button></a>
+        <a href="/simulate_attack"><button class="btn">⚔️ Simulate Attack</button></a>
+    </div>
+
+    <div class="card">
+        <h2>Blocked IPs</h2>
+        <ul>
+            {% for ip in blocked %}
+                <li>{{ ip }}</li>
+            {% else %}
+                <li>No blocked IPs</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Recent Events</h2>
+        <table>
+            <tr><th>Time</th><th>IP</th><th>Path</th><th>Type</th><th>Detail</th></tr>
+            {% for e in events %}
+                <tr>
+                    <td>{{ e[0] }}</td>
+                    <td>{{ e[1] }}</td>
+                    <td>{{ e[2] }}</td>
+                    <td>{{ e[3] }}</td>
+                    <td>{{ e[4] }}</td>
+                </tr>
+            {% else %}
+                <tr><td colspan="5">No events logged</td></tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>

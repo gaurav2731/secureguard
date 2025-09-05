@@ -1,0 +1,292 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/gaurav/secureguard/venv/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/app.py", line 90, in index
+    blocked = conn.execute("SELECT ip, ts FROM blocked_ips ORDER BY id DESC LIMIT 10").fetchall()
+              ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: ts
+Exception in thread Thread-1 (auto_log_generator):
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/app.py", line 193, in auto_log_generator
+    db_log(ip, path, etype, detail)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/app.py", line 59, in db_log
+    conn.execute("INSERT INTO events (ts, ip, path, etype, detail) VALUES (?, ?, ?, ?, ?)",
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 (ts, ip, path, etype, detail))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: events
+Exception in thread Thread-1 (auto_log_generator):
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/app.py", line 193, in auto_log_generator
+    db_log(ip, path, etype, detail)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaurav/secureguard/app.py", line 59, in db_log
+    conn.execute("INSERT INTO events (ts, ip, path, etype, detail) VALUES (?, ?, ?, ?, ?)",
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 (ts, ip, path, etype, detail))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: events
+2025-09-05 13:20:36,587 [WARNING]  * Debugger is active!
+2025-09-05 13:20:36,587 [INFO]  * Debugger PIN: 810-545-933
+2025-09-05 13:20:36,623 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 13:20:38,687 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 13:20:40,708 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 13:20:42,759 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 13:20:44,795 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 13:20:46,831 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 13:20:48,870 [INFO] Auto-generated log for IP 10.0.0.18
+2025-09-05 13:20:50,912 [INFO] Auto-generated log for IP 10.0.0.20
+2025-09-05 13:20:52,959 [INFO] Auto-generated log for IP 10.0.0.22
+2025-09-05 13:20:55,006 [INFO] Auto-generated log for IP 10.0.0.24
+2025-09-05 13:20:57,050 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 13:20:59,088 [INFO] Auto-generated log for IP 10.0.0.29
+2025-09-05 13:21:01,122 [INFO] Auto-generated log for IP 10.0.0.31
+2025-09-05 13:21:03,171 [INFO] Auto-generated log for IP 10.0.0.33
+2025-09-05 13:21:05,205 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 13:21:07,253 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 13:21:09,290 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 13:21:11,324 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 13:21:13,373 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 13:21:15,421 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 13:21:17,442 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 13:21:19,490 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 13:21:21,523 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 13:21:23,591 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 13:21:25,647 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 13:21:27,676 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 13:21:29,735 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 13:21:31,770 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 13:21:33,805 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 13:21:35,828 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 13:58:24,331 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 13:58:26,443 [INFO] Auto-generated log for IP 10.0.0.236
+2025-09-05 13:58:28,527 [INFO] Auto-generated log for IP 10.0.0.238
+2025-09-05 13:58:30,622 [INFO] Auto-generated log for IP 10.0.0.240
+2025-09-05 13:58:32,651 [INFO] Auto-generated log for IP 10.0.0.242
+2025-09-05 13:58:34,669 [INFO] Auto-generated log for IP 10.0.0.244
+2025-09-05 13:58:37,560 [INFO] Auto-generated log for IP 10.0.0.246
+2025-09-05 13:58:39,585 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 13:58:41,605 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 13:58:43,627 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 13:58:45,647 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 13:58:47,671 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 13:58:49,689 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 13:58:51,705 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 13:58:53,736 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 13:58:55,761 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 13:58:57,782 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 13:58:59,943 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 13:59:02,111 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 13:59:04,146 [INFO] Auto-generated log for IP 10.0.0.19
+2025-09-05 13:59:06,162 [INFO] Auto-generated log for IP 10.0.0.21
+2025-09-05 13:59:08,196 [INFO] Auto-generated log for IP 10.0.0.23
+2025-09-05 13:59:10,236 [INFO] Auto-generated log for IP 10.0.0.25
+2025-09-05 13:59:12,255 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 13:59:14,288 [INFO] Auto-generated log for IP 10.0.0.29
+2025-09-05 13:59:16,321 [INFO] Auto-generated log for IP 10.0.0.31
+2025-09-05 13:59:18,340 [INFO] Auto-generated log for IP 10.0.0.33
+2025-09-05 13:59:20,377 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 13:59:22,399 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 13:59:24,418 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 13:59:26,439 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 13:59:28,466 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 13:59:30,499 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 13:59:32,531 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 13:59:34,550 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 13:59:36,587 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 13:59:38,620 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 13:59:40,653 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 13:59:42,695 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 13:59:44,731 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 13:59:46,767 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 13:59:48,801 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 13:59:50,851 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 13:59:52,887 [INFO] Auto-generated log for IP 10.0.0.67
+2025-09-05 13:59:54,907 [INFO] Auto-generated log for IP 10.0.0.69
+2025-09-05 13:59:56,930 [INFO] Auto-generated log for IP 10.0.0.71
+2025-09-05 13:59:58,950 [INFO] Auto-generated log for IP 10.0.0.73
+2025-09-05 14:00:00,973 [INFO] Auto-generated log for IP 10.0.0.75
+2025-09-05 14:00:02,991 [INFO] Auto-generated log for IP 10.0.0.77
+2025-09-05 14:00:05,030 [INFO] Auto-generated log for IP 10.0.0.79
+2025-09-05 14:00:07,222 [INFO] Auto-generated log for IP 10.0.0.82
+2025-09-05 14:00:09,337 [INFO] Auto-generated log for IP 10.0.0.84
+2025-09-05 14:00:11,356 [INFO] Auto-generated log for IP 10.0.0.86
+2025-09-05 14:00:13,390 [INFO] Auto-generated log for IP 10.0.0.88
+2025-09-05 14:00:15,440 [INFO] Auto-generated log for IP 10.0.0.90
+2025-09-05 14:00:17,459 [INFO] Auto-generated log for IP 10.0.0.92
+2025-09-05 14:00:19,480 [INFO] Auto-generated log for IP 10.0.0.94
+2025-09-05 14:00:21,523 [INFO] Auto-generated log for IP 10.0.0.96
+2025-09-05 14:00:23,547 [INFO] Auto-generated log for IP 10.0.0.98
+2025-09-05 14:00:25,593 [INFO] Auto-generated log for IP 10.0.0.100
+2025-09-05 14:00:27,663 [INFO] Auto-generated log for IP 10.0.0.102
+2025-09-05 14:00:29,746 [INFO] Auto-generated log for IP 10.0.0.104
+2025-09-05 14:00:31,782 [INFO] Auto-generated log for IP 10.0.0.106
+2025-09-05 14:00:33,810 [INFO] Auto-generated log for IP 10.0.0.108
+2025-09-05 14:00:35,832 [INFO] Auto-generated log for IP 10.0.0.110
+2025-09-05 14:00:37,861 [INFO] Auto-generated log for IP 10.0.0.112
+2025-09-05 14:00:39,884 [INFO] Auto-generated log for IP 10.0.0.114
+2025-09-05 14:00:41,972 [INFO] Auto-generated log for IP 10.0.0.116
+2025-09-05 14:00:44,023 [INFO] Auto-generated log for IP 10.0.0.118
+2025-09-05 14:00:46,054 [INFO] Auto-generated log for IP 10.0.0.121
+2025-09-05 14:00:48,104 [INFO] Auto-generated log for IP 10.0.0.123
+2025-09-05 14:00:50,137 [INFO] Auto-generated log for IP 10.0.0.125
+2025-09-05 14:00:52,171 [INFO] Auto-generated log for IP 10.0.0.127
+2025-09-05 14:00:54,207 [INFO] Auto-generated log for IP 10.0.0.129
+2025-09-05 14:00:56,249 [INFO] Auto-generated log for IP 10.0.0.131
+2025-09-05 14:00:58,281 [INFO] Auto-generated log for IP 10.0.0.133
+2025-09-05 14:01:00,301 [INFO] Auto-generated log for IP 10.0.0.135
+2025-09-05 14:01:02,335 [INFO] Auto-generated log for IP 10.0.0.137
+2025-09-05 14:01:04,367 [INFO] Auto-generated log for IP 10.0.0.139
+2025-09-05 14:01:06,388 [INFO] Auto-generated log for IP 10.0.0.141
+2025-09-05 14:01:08,427 [INFO] Auto-generated log for IP 10.0.0.143
+2025-09-05 14:01:10,459 [INFO] Auto-generated log for IP 10.0.0.145
+2025-09-05 14:01:12,478 [INFO] Auto-generated log for IP 10.0.0.147
+2025-09-05 14:01:14,513 [INFO] Auto-generated log for IP 10.0.0.149
+2025-09-05 14:01:16,567 [INFO] Auto-generated log for IP 10.0.0.151
+2025-09-05 14:01:18,598 [INFO] Auto-generated log for IP 10.0.0.153
+2025-09-05 14:01:20,631 [INFO] Auto-generated log for IP 10.0.0.155
+2025-09-05 14:01:22,697 [INFO] Auto-generated log for IP 10.0.0.157
+2025-09-05 14:01:24,721 [INFO] Auto-generated log for IP 10.0.0.159
+2025-09-05 14:01:26,768 [INFO] Auto-generated log for IP 10.0.0.161
+2025-09-05 14:01:28,815 [INFO] Auto-generated log for IP 10.0.0.163
+2025-09-05 14:01:30,864 [INFO] Auto-generated log for IP 10.0.0.165
+2025-09-05 14:01:32,885 [INFO] Auto-generated log for IP 10.0.0.167
+2025-09-05 14:01:34,919 [INFO] Auto-generated log for IP 10.0.0.169
+2025-09-05 14:01:36,953 [INFO] Auto-generated log for IP 10.0.0.171
+2025-09-05 14:01:38,986 [INFO] Auto-generated log for IP 10.0.0.173
+2025-09-05 14:01:41,024 [INFO] Auto-generated log for IP 10.0.0.175
+2025-09-05 14:01:43,059 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:01:45,091 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:01:47,135 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:01:49,163 [INFO] Auto-generated log for IP 10.0.0.184
+2025-09-05 14:01:51,196 [INFO] Auto-generated log for IP 10.0.0.186
+2025-09-05 14:01:53,243 [INFO] Auto-generated log for IP 10.0.0.188
+2025-09-05 14:01:55,286 [INFO] Auto-generated log for IP 10.0.0.190
+2025-09-05 14:01:57,318 [INFO] Auto-generated log for IP 10.0.0.192
+2025-09-05 14:01:59,352 [INFO] Auto-generated log for IP 10.0.0.194
+2025-09-05 14:02:01,400 [INFO] Auto-generated log for IP 10.0.0.196
+2025-09-05 14:02:03,447 [INFO] Auto-generated log for IP 10.0.0.198
+2025-09-05 14:02:05,478 [INFO] Auto-generated log for IP 10.0.0.200
+2025-09-05 14:02:07,554 [INFO] Auto-generated log for IP 10.0.0.202
+2025-09-05 14:02:09,591 [INFO] Auto-generated log for IP 10.0.0.204
+2025-09-05 14:02:11,625 [INFO] Auto-generated log for IP 10.0.0.206
+2025-09-05 14:02:13,646 [INFO] Auto-generated log for IP 10.0.0.208
+2025-09-05 14:02:15,701 [INFO] Auto-generated log for IP 10.0.0.210
+2025-09-05 14:02:17,726 [INFO] Auto-generated log for IP 10.0.0.212
+2025-09-05 14:02:19,748 [INFO] Auto-generated log for IP 10.0.0.214
+2025-09-05 14:02:21,795 [INFO] Auto-generated log for IP 10.0.0.216
+2025-09-05 14:02:23,848 [INFO] Auto-generated log for IP 10.0.0.218
+2025-09-05 14:02:25,870 [INFO] Auto-generated log for IP 10.0.0.220
+2025-09-05 14:02:27,919 [INFO] Auto-generated log for IP 10.0.0.222
+2025-09-05 14:02:29,955 [INFO] Auto-generated log for IP 10.0.0.224
+2025-09-05 14:02:31,993 [INFO] Auto-generated log for IP 10.0.0.226
+2025-09-05 14:02:34,026 [INFO] Auto-generated log for IP 10.0.0.228
+2025-09-05 14:02:36,049 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:02:38,105 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:02:40,143 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:02:42,166 [INFO] Auto-generated log for IP 10.0.0.237
+2025-09-05 14:02:44,201 [INFO] Auto-generated log for IP 10.0.0.239
+2025-09-05 14:02:46,222 [INFO] Auto-generated log for IP 10.0.0.241
+2025-09-05 14:02:48,254 [INFO] Auto-generated log for IP 10.0.0.243
+2025-09-05 14:02:50,291 [INFO] Auto-generated log for IP 10.0.0.245
+2025-09-05 14:02:52,334 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:02:54,376 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:02:56,407 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 14:02:58,442 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 14:03:00,478 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 14:03:02,497 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 14:03:04,522 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 14:03:06,547 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 14:03:08,604 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 14:03:10,647 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 14:03:12,673 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 14:03:14,711 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 14:03:16,758 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 14:03:18,777 [INFO] Auto-generated log for IP 10.0.0.18
+2025-09-05 14:03:20,811 [INFO] Auto-generated log for IP 10.0.0.20
+2025-09-05 14:03:22,830 [INFO] Auto-generated log for IP 10.0.0.22
+2025-09-05 14:03:24,878 [INFO] Auto-generated log for IP 10.0.0.24
+2025-09-05 14:03:26,916 [INFO] Auto-generated log for IP 10.0.0.26
+2025-09-05 14:03:28,952 [INFO] Auto-generated log for IP 10.0.0.28
+2025-09-05 14:03:30,974 [INFO] Auto-generated log for IP 10.0.0.30
+2025-09-05 14:03:32,995 [INFO] Auto-generated log for IP 10.0.0.32
+2025-09-05 14:03:35,045 [INFO] Auto-generated log for IP 10.0.0.34
+2025-09-05 14:03:37,067 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 14:03:39,096 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 14:03:41,120 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 14:03:43,158 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 14:03:45,193 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 14:03:47,228 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 14:03:49,268 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 14:03:51,303 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 14:03:53,338 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 14:03:55,375 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 14:03:57,426 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 14:03:59,448 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 14:04:01,471 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 14:04:03,520 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 14:04:05,554 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 14:04:07,591 [INFO] Auto-generated log for IP 10.0.0.67
+2025-09-05 14:04:09,610 [INFO] Auto-generated log for IP 10.0.0.69
+2025-09-05 14:04:11,644 [INFO] Auto-generated log for IP 10.0.0.71
+2025-09-05 14:04:13,681 [INFO] Auto-generated log for IP 10.0.0.73
+2025-09-05 14:04:15,725 [INFO] Auto-generated log for IP 10.0.0.75
+2025-09-05 14:04:17,759 [INFO] Auto-generated log for IP 10.0.0.77
+2025-09-05 14:04:19,792 [INFO] Auto-generated log for IP 10.0.0.79
+2025-09-05 14:04:21,825 [INFO] Auto-generated log for IP 10.0.0.81
+2025-09-05 14:04:23,847 [INFO] Auto-generated log for IP 10.0.0.83
+2025-09-05 14:04:25,867 [INFO] Auto-generated log for IP 10.0.0.85
+2025-09-05 14:04:27,956 [INFO] Auto-generated log for IP 10.0.0.87
+2025-09-05 14:04:29,987 [INFO] Auto-generated log for IP 10.0.0.89
+2025-09-05 14:04:32,021 [INFO] Auto-generated log for IP 10.0.0.91
+2025-09-05 14:04:34,042 [INFO] Auto-generated log for IP 10.0.0.94
+2025-09-05 14:04:36,078 [INFO] Auto-generated log for IP 10.0.0.96
+2025-09-05 14:04:38,111 [INFO] Auto-generated log for IP 10.0.0.98
+2025-09-05 14:04:40,145 [INFO] Auto-generated log for IP 10.0.0.100
+2025-09-05 14:04:42,192 [INFO] Auto-generated log for IP 10.0.0.102
+2025-09-05 14:04:44,225 [INFO] Auto-generated log for IP 10.0.0.104
+2025-09-05 14:04:46,273 [INFO] Auto-generated log for IP 10.0.0.106
+2025-09-05 14:04:48,322 [INFO] Auto-generated log for IP 10.0.0.108
+2025-09-05 14:04:50,355 [INFO] Auto-generated log for IP 10.0.0.110
+2025-09-05 14:04:52,405 [INFO] Auto-generated log for IP 10.0.0.112
+2025-09-05 14:04:54,451 [INFO] Auto-generated log for IP 10.0.0.114
+2025-09-05 14:04:56,498 [INFO] Auto-generated log for IP 10.0.0.116
+2025-09-05 14:04:58,521 [INFO] Auto-generated log for IP 10.0.0.118
+2025-09-05 14:05:00,564 [INFO] Auto-generated log for IP 10.0.0.120
+2025-09-05 14:05:02,598 [INFO] Auto-generated log for IP 10.0.0.122
+2025-09-05 14:05:04,632 [INFO] Auto-generated log for IP 10.0.0.124
+2025-09-05 14:05:06,662 [INFO] Auto-generated log for IP 10.0.0.126
+2025-09-05 14:05:08,695 [INFO] Auto-generated log for IP 10.0.0.128
+2025-09-05 14:05:10,715 [INFO] Auto-generated log for IP 10.0.0.130
+2025-09-05 14:05:12,750 [INFO] Auto-generated log for IP 10.0.0.132
+2025-09-05 14:05:14,801 [INFO] Auto-generated log for IP 10.0.0.134
+2025-09-05 14:05:16,847 [INFO] Auto-generated log for IP 10.0.0.136
+2025-09-05 14:05:18,870 [INFO] Auto-generated log for IP 10.0.0.138
+2025-09-05 14:05:20,908 [INFO] Auto-generated log for IP 10.0.0.140

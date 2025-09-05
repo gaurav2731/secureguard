@@ -1,0 +1,1562 @@
+2025-09-05 13:06:46,996 [INFO] DB initialized (WAL mode)
+2025-09-05 13:11:41,252 INFO: 192.168.1.100 | /health | SCAN | Auto-generated log
+2025-09-05 13:11:41,301 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 13:11:41,302 INFO: [33mPress CTRL+C to quit[0m
+2025-09-05 13:11:41,304 INFO:  * Restarting with stat
+2025-09-05 13:11:41,728 WARNING:  * Debugger is active!
+2025-09-05 13:11:41,730 INFO:  * Debugger PIN: 833-452-960
+2025-09-05 13:11:41,791 INFO: 203.0.113.77 | /health | NOTICE | Auto-generated log
+2025-09-05 13:11:45,631 INFO: Email alert sent.
+2025-09-05 13:11:45,945 INFO: Email alert sent.
+2025-09-05 13:11:47,654 INFO: 192.168.1.100 | /login | INFO | Auto-generated log
+2025-09-05 13:11:47,968 INFO: 203.0.113.77 | /health | SCAN | Auto-generated log
+2025-09-05 13:11:51,922 INFO: Email alert sent.
+2025-09-05 13:11:52,203 INFO: Email alert sent.
+2025-09-05 13:11:53,945 INFO: 203.0.113.77 | /login | SCAN | Auto-generated log
+2025-09-05 13:11:54,217 INFO: 172.16.0.22 | /api/data | INFO | Auto-generated log
+2025-09-05 13:11:58,550 INFO: Email alert sent.
+2025-09-05 13:11:58,848 INFO: Email alert sent.
+2025-09-05 13:12:00,562 INFO: 203.0.113.77 | /health | SCAN | Auto-generated log
+2025-09-05 13:12:00,858 INFO: 10.0.0.5 | /health | NOTICE | Auto-generated log
+2025-09-05 13:12:05,016 INFO: Email alert sent.
+2025-09-05 13:12:05,237 INFO: Email alert sent.
+2025-09-05 13:12:07,045 INFO: 10.0.0.5 | /api/data | ATTEMPT | Auto-generated log
+2025-09-05 13:12:07,262 INFO: 172.16.0.22 | /health | INFO | Auto-generated log
+2025-09-05 13:12:11,410 INFO: Email alert sent.
+2025-09-05 13:12:11,608 INFO: Email alert sent.
+2025-09-05 13:12:13,442 INFO: 192.168.1.100 | /health | NOTICE | Auto-generated log
+2025-09-05 13:12:13,630 INFO: 192.168.1.100 | /admin | SCAN | Auto-generated log
+2025-09-05 13:12:18,054 INFO: Email alert sent.
+2025-09-05 13:12:18,609 INFO: Email alert sent.
+2025-09-05 13:12:20,079 INFO: 172.16.0.22 | /api/data | ATTEMPT | Auto-generated log
+2025-09-05 13:12:20,620 INFO: 172.16.0.22 | /login | SCAN | Auto-generated log
+2025-09-05 13:15:56,335 INFO: 192.168.1.100 | /health | ATTEMPT | Auto-generated log
+2025-09-05 13:15:56,349 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 13:15:56,349 INFO: [33mPress CTRL+C to quit[0m
+2025-09-05 13:15:56,350 INFO:  * Restarting with stat
+2025-09-05 13:15:56,669 INFO: 10.0.0.5 | /health | INFO | Auto-generated log
+2025-09-05 13:15:56,695 WARNING:  * Debugger is active!
+2025-09-05 13:15:56,696 INFO:  * Debugger PIN: 810-545-933
+2025-09-05 13:16:01,932 INFO: Email alert sent.
+2025-09-05 13:16:02,089 INFO: Email alert sent.
+2025-09-05 13:16:03,966 INFO: 172.16.0.22 | /admin | SCAN | Auto-generated log
+2025-09-05 13:16:04,116 INFO: 203.0.113.77 | /admin | NOTICE | Auto-generated log
+2025-09-05 13:16:08,338 INFO: Email alert sent.
+2025-09-05 13:16:08,580 INFO: Email alert sent.
+2025-09-05 13:16:10,366 INFO: 172.16.0.22 | /api/data | SCAN | Auto-generated log
+2025-09-05 13:16:10,605 INFO: 192.168.1.100 | /login | NOTICE | Auto-generated log
+2025-09-05 13:16:14,652 INFO: Email alert sent.
+2025-09-05 13:16:14,896 INFO: Email alert sent.
+2025-09-05 13:16:16,678 INFO: 192.168.1.100 | /api/data | INFO | Auto-generated log
+2025-09-05 13:16:16,919 INFO: 192.168.1.100 | /admin | ATTEMPT | Auto-generated log
+2025-09-05 13:16:23,418 INFO: Email alert sent.
+2025-09-05 13:16:23,692 INFO: Email alert sent.
+2025-09-05 13:16:25,443 INFO: 192.168.1.100 | /api/data | INFO | Auto-generated log
+2025-09-05 13:16:25,707 INFO: 172.16.0.22 | /api/data | ATTEMPT | Auto-generated log
+2025-09-05 13:16:30,025 INFO: Email alert sent.
+2025-09-05 13:16:30,100 INFO: Email alert sent.
+2025-09-05 13:16:32,052 INFO: 172.16.0.22 | /health | ATTEMPT | Auto-generated log
+2025-09-05 13:16:32,114 INFO: 10.0.0.5 | /api/data | SCAN | Auto-generated log
+2025-09-05 13:16:36,439 INFO: Email alert sent.
+2025-09-05 13:16:36,666 INFO: Email alert sent.
+2025-09-05 13:16:38,466 INFO: 172.16.0.22 | /login | INFO | Auto-generated log
+2025-09-05 13:16:38,690 INFO: 192.168.1.100 | /health | NOTICE | Auto-generated log
+2025-09-05 13:16:42,870 INFO: Email alert sent.
+2025-09-05 13:16:43,041 INFO: Email alert sent.
+2025-09-05 13:16:44,896 INFO: 192.168.1.100 | /admin | ATTEMPT | Auto-generated log
+2025-09-05 13:16:45,065 INFO: 192.168.1.100 | /login | SCAN | Auto-generated log
+2025-09-05 13:16:50,293 INFO: 127.0.0.1 - - [05/Sep/2025 13:16:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-05 13:16:50,470 INFO: 127.0.0.1 - - [05/Sep/2025 13:16:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-09-05 13:16:50,512 INFO: 127.0.0.1 - - [05/Sep/2025 13:16:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-09-05 13:16:50,590 INFO: 127.0.0.1 - - [05/Sep/2025 13:16:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=vpzkUrfI3gXTnzWk1yTE HTTP/1.1" 200 -
+2025-09-05 13:16:50,948 INFO: Email alert sent.
+2025-09-05 13:16:50,948 INFO: Email alert sent.
+2025-09-05 13:16:52,961 INFO: 172.16.0.22 | /login | SCAN | Auto-generated log
+2025-09-05 13:16:52,973 INFO: 10.0.0.5 | /login | NOTICE | Auto-generated log
+2025-09-05 13:16:58,731 INFO: Email alert sent.
+2025-09-05 13:16:59,041 INFO: Email alert sent.
+2025-09-05 13:17:00,754 INFO: 192.168.1.100 | /admin | INFO | Auto-generated log
+2025-09-05 13:17:01,067 INFO: 192.168.1.100 | /login | NOTICE | Auto-generated log
+2025-09-05 13:17:05,954 INFO: Email alert sent.
+2025-09-05 13:17:06,149 INFO: Email alert sent.
+2025-09-05 13:17:07,965 INFO: 192.168.1.100 | /api/data | NOTICE | Auto-generated log
+2025-09-05 13:17:08,175 INFO: 192.168.1.100 | /api/data | INFO | Auto-generated log
+2025-09-05 13:17:12,370 INFO: Email alert sent.
+2025-09-05 13:17:12,677 INFO: Email alert sent.
+2025-09-05 13:17:14,395 INFO: 203.0.113.77 | /api/data | SCAN | Auto-generated log
+2025-09-05 13:17:14,706 INFO: 172.16.0.22 | /login | SCAN | Auto-generated log
+2025-09-05 13:17:19,247 INFO: Email alert sent.
+2025-09-05 13:17:20,530 INFO: Email alert sent.
+2025-09-05 13:17:21,272 INFO: 172.16.0.22 | /admin | SCAN | Auto-generated log
+2025-09-05 13:17:22,555 INFO: 172.16.0.22 | /api/data | NOTICE | Auto-generated log
+2025-09-05 13:17:25,815 INFO: Email alert sent.
+2025-09-05 13:17:27,190 INFO: Email alert sent.
+2025-09-05 13:17:27,838 INFO: 203.0.113.77 | /login | ATTEMPT | Auto-generated log
+2025-09-05 13:17:29,214 INFO: 192.168.1.100 | /api/data | ATTEMPT | Auto-generated log
+2025-09-05 13:17:34,532 INFO: Email alert sent.
+2025-09-05 13:17:37,830 INFO: Email alert sent.
+2025-09-05 13:20:36,173 INFO:  * Detected change in '/home/gaurav/secureguard/app.py', reloading
+2025-09-05 13:20:36,246 INFO:  * Restarting with stat
+2025-09-05 13:20:36,587 [WARNING]  * Debugger is active!
+2025-09-05 13:20:36,587 [INFO]  * Debugger PIN: 810-545-933
+2025-09-05 13:20:36,623 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 13:20:38,687 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 13:20:40,708 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 13:20:42,759 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 13:20:44,795 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 13:20:46,831 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 13:20:48,870 [INFO] Auto-generated log for IP 10.0.0.18
+2025-09-05 13:20:50,912 [INFO] Auto-generated log for IP 10.0.0.20
+2025-09-05 13:20:52,959 [INFO] Auto-generated log for IP 10.0.0.22
+2025-09-05 13:20:55,006 [INFO] Auto-generated log for IP 10.0.0.24
+2025-09-05 13:20:57,050 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 13:20:59,088 [INFO] Auto-generated log for IP 10.0.0.29
+2025-09-05 13:21:01,122 [INFO] Auto-generated log for IP 10.0.0.31
+2025-09-05 13:21:03,171 [INFO] Auto-generated log for IP 10.0.0.33
+2025-09-05 13:21:05,205 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 13:21:07,253 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 13:21:09,290 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 13:21:11,324 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 13:21:13,373 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 13:21:15,421 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 13:21:17,442 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 13:21:17,538 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 13:21:19,490 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 13:21:21,523 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 13:21:23,591 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 13:21:25,647 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 13:21:27,676 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 13:21:29,735 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 13:21:31,770 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 13:21:33,805 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 13:21:35,828 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 13:58:24,331 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 13:58:26,443 [INFO] Auto-generated log for IP 10.0.0.236
+2025-09-05 13:58:28,527 [INFO] Auto-generated log for IP 10.0.0.238
+2025-09-05 13:58:30,622 [INFO] Auto-generated log for IP 10.0.0.240
+2025-09-05 13:58:32,651 [INFO] Auto-generated log for IP 10.0.0.242
+2025-09-05 13:58:34,669 [INFO] Auto-generated log for IP 10.0.0.244
+2025-09-05 13:58:37,560 [INFO] Auto-generated log for IP 10.0.0.246
+2025-09-05 13:58:39,585 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 13:58:41,605 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 13:58:43,627 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 13:58:45,647 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 13:58:47,671 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 13:58:49,689 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 13:58:51,705 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 13:58:53,736 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 13:58:55,761 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 13:58:57,782 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 13:58:59,943 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 13:59:02,111 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 13:59:04,146 [INFO] Auto-generated log for IP 10.0.0.19
+2025-09-05 13:59:06,162 [INFO] Auto-generated log for IP 10.0.0.21
+2025-09-05 13:59:08,196 [INFO] Auto-generated log for IP 10.0.0.23
+2025-09-05 13:59:10,236 [INFO] Auto-generated log for IP 10.0.0.25
+2025-09-05 13:59:12,255 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 13:59:14,288 [INFO] Auto-generated log for IP 10.0.0.29
+2025-09-05 13:59:16,321 [INFO] Auto-generated log for IP 10.0.0.31
+2025-09-05 13:59:18,340 [INFO] Auto-generated log for IP 10.0.0.33
+2025-09-05 13:59:20,377 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 13:59:22,399 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 13:59:24,418 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 13:59:26,439 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 13:59:28,466 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 13:59:30,499 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 13:59:32,531 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 13:59:34,550 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 13:59:36,587 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 13:59:38,620 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 13:59:40,653 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 13:59:42,695 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 13:59:44,731 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 13:59:46,767 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 13:59:48,801 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 13:59:50,851 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 13:59:52,887 [INFO] Auto-generated log for IP 10.0.0.67
+2025-09-05 13:59:54,907 [INFO] Auto-generated log for IP 10.0.0.69
+2025-09-05 13:59:56,930 [INFO] Auto-generated log for IP 10.0.0.71
+2025-09-05 13:59:58,950 [INFO] Auto-generated log for IP 10.0.0.73
+2025-09-05 14:00:00,973 [INFO] Auto-generated log for IP 10.0.0.75
+2025-09-05 14:00:02,991 [INFO] Auto-generated log for IP 10.0.0.77
+2025-09-05 14:00:05,030 [INFO] Auto-generated log for IP 10.0.0.79
+2025-09-05 14:00:07,222 [INFO] Auto-generated log for IP 10.0.0.82
+2025-09-05 14:00:09,337 [INFO] Auto-generated log for IP 10.0.0.84
+2025-09-05 14:00:11,356 [INFO] Auto-generated log for IP 10.0.0.86
+2025-09-05 14:00:13,390 [INFO] Auto-generated log for IP 10.0.0.88
+2025-09-05 14:00:15,440 [INFO] Auto-generated log for IP 10.0.0.90
+2025-09-05 14:00:17,459 [INFO] Auto-generated log for IP 10.0.0.92
+2025-09-05 14:00:19,480 [INFO] Auto-generated log for IP 10.0.0.94
+2025-09-05 14:00:21,523 [INFO] Auto-generated log for IP 10.0.0.96
+2025-09-05 14:00:23,547 [INFO] Auto-generated log for IP 10.0.0.98
+2025-09-05 14:00:25,593 [INFO] Auto-generated log for IP 10.0.0.100
+2025-09-05 14:00:27,663 [INFO] Auto-generated log for IP 10.0.0.102
+2025-09-05 14:00:29,746 [INFO] Auto-generated log for IP 10.0.0.104
+2025-09-05 14:00:31,782 [INFO] Auto-generated log for IP 10.0.0.106
+2025-09-05 14:00:33,810 [INFO] Auto-generated log for IP 10.0.0.108
+2025-09-05 14:00:35,832 [INFO] Auto-generated log for IP 10.0.0.110
+2025-09-05 14:00:37,861 [INFO] Auto-generated log for IP 10.0.0.112
+2025-09-05 14:00:39,884 [INFO] Auto-generated log for IP 10.0.0.114
+2025-09-05 14:00:41,972 [INFO] Auto-generated log for IP 10.0.0.116
+2025-09-05 14:00:44,023 [INFO] Auto-generated log for IP 10.0.0.118
+2025-09-05 14:00:46,054 [INFO] Auto-generated log for IP 10.0.0.121
+2025-09-05 14:00:48,104 [INFO] Auto-generated log for IP 10.0.0.123
+2025-09-05 14:00:50,137 [INFO] Auto-generated log for IP 10.0.0.125
+2025-09-05 14:00:52,171 [INFO] Auto-generated log for IP 10.0.0.127
+2025-09-05 14:00:54,207 [INFO] Auto-generated log for IP 10.0.0.129
+2025-09-05 14:00:56,249 [INFO] Auto-generated log for IP 10.0.0.131
+2025-09-05 14:00:58,281 [INFO] Auto-generated log for IP 10.0.0.133
+2025-09-05 14:01:00,301 [INFO] Auto-generated log for IP 10.0.0.135
+2025-09-05 14:01:02,335 [INFO] Auto-generated log for IP 10.0.0.137
+2025-09-05 14:01:04,367 [INFO] Auto-generated log for IP 10.0.0.139
+2025-09-05 14:01:06,388 [INFO] Auto-generated log for IP 10.0.0.141
+2025-09-05 14:01:08,427 [INFO] Auto-generated log for IP 10.0.0.143
+2025-09-05 14:01:10,459 [INFO] Auto-generated log for IP 10.0.0.145
+2025-09-05 14:01:12,478 [INFO] Auto-generated log for IP 10.0.0.147
+2025-09-05 14:01:14,513 [INFO] Auto-generated log for IP 10.0.0.149
+2025-09-05 14:01:16,567 [INFO] Auto-generated log for IP 10.0.0.151
+2025-09-05 14:01:18,598 [INFO] Auto-generated log for IP 10.0.0.153
+2025-09-05 14:01:20,631 [INFO] Auto-generated log for IP 10.0.0.155
+2025-09-05 14:01:22,697 [INFO] Auto-generated log for IP 10.0.0.157
+2025-09-05 14:01:24,721 [INFO] Auto-generated log for IP 10.0.0.159
+2025-09-05 14:01:26,768 [INFO] Auto-generated log for IP 10.0.0.161
+2025-09-05 14:01:28,815 [INFO] Auto-generated log for IP 10.0.0.163
+2025-09-05 14:01:30,864 [INFO] Auto-generated log for IP 10.0.0.165
+2025-09-05 14:01:32,885 [INFO] Auto-generated log for IP 10.0.0.167
+2025-09-05 14:01:34,919 [INFO] Auto-generated log for IP 10.0.0.169
+2025-09-05 14:01:36,953 [INFO] Auto-generated log for IP 10.0.0.171
+2025-09-05 14:01:38,986 [INFO] Auto-generated log for IP 10.0.0.173
+2025-09-05 14:01:41,024 [INFO] Auto-generated log for IP 10.0.0.175
+2025-09-05 14:01:43,059 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:01:45,091 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:01:47,135 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:01:49,163 [INFO] Auto-generated log for IP 10.0.0.184
+2025-09-05 14:01:51,196 [INFO] Auto-generated log for IP 10.0.0.186
+2025-09-05 14:01:53,243 [INFO] Auto-generated log for IP 10.0.0.188
+2025-09-05 14:01:55,286 [INFO] Auto-generated log for IP 10.0.0.190
+2025-09-05 14:01:57,318 [INFO] Auto-generated log for IP 10.0.0.192
+2025-09-05 14:01:59,352 [INFO] Auto-generated log for IP 10.0.0.194
+2025-09-05 14:02:01,400 [INFO] Auto-generated log for IP 10.0.0.196
+2025-09-05 14:02:03,447 [INFO] Auto-generated log for IP 10.0.0.198
+2025-09-05 14:02:05,478 [INFO] Auto-generated log for IP 10.0.0.200
+2025-09-05 14:02:07,554 [INFO] Auto-generated log for IP 10.0.0.202
+2025-09-05 14:02:09,591 [INFO] Auto-generated log for IP 10.0.0.204
+2025-09-05 14:02:11,625 [INFO] Auto-generated log for IP 10.0.0.206
+2025-09-05 14:02:13,646 [INFO] Auto-generated log for IP 10.0.0.208
+2025-09-05 14:02:15,701 [INFO] Auto-generated log for IP 10.0.0.210
+2025-09-05 14:02:17,726 [INFO] Auto-generated log for IP 10.0.0.212
+2025-09-05 14:02:19,748 [INFO] Auto-generated log for IP 10.0.0.214
+2025-09-05 14:02:21,795 [INFO] Auto-generated log for IP 10.0.0.216
+2025-09-05 14:02:23,848 [INFO] Auto-generated log for IP 10.0.0.218
+2025-09-05 14:02:25,870 [INFO] Auto-generated log for IP 10.0.0.220
+2025-09-05 14:02:27,919 [INFO] Auto-generated log for IP 10.0.0.222
+2025-09-05 14:02:29,955 [INFO] Auto-generated log for IP 10.0.0.224
+2025-09-05 14:02:31,993 [INFO] Auto-generated log for IP 10.0.0.226
+2025-09-05 14:02:34,026 [INFO] Auto-generated log for IP 10.0.0.228
+2025-09-05 14:02:36,049 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:02:38,105 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:02:40,143 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:02:42,166 [INFO] Auto-generated log for IP 10.0.0.237
+2025-09-05 14:02:44,201 [INFO] Auto-generated log for IP 10.0.0.239
+2025-09-05 14:02:46,222 [INFO] Auto-generated log for IP 10.0.0.241
+2025-09-05 14:02:48,254 [INFO] Auto-generated log for IP 10.0.0.243
+2025-09-05 14:02:50,291 [INFO] Auto-generated log for IP 10.0.0.245
+2025-09-05 14:02:52,334 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:02:54,376 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:02:56,407 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 14:02:58,442 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 14:03:00,478 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 14:03:02,497 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 14:03:04,522 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 14:03:06,547 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 14:03:08,604 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 14:03:10,647 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 14:03:12,673 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 14:03:14,711 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 14:03:16,758 [INFO] Auto-generated log for IP 10.0.0.16
+2025-09-05 14:03:18,777 [INFO] Auto-generated log for IP 10.0.0.18
+2025-09-05 14:03:20,811 [INFO] Auto-generated log for IP 10.0.0.20
+2025-09-05 14:03:22,830 [INFO] Auto-generated log for IP 10.0.0.22
+2025-09-05 14:03:24,878 [INFO] Auto-generated log for IP 10.0.0.24
+2025-09-05 14:03:26,916 [INFO] Auto-generated log for IP 10.0.0.26
+2025-09-05 14:03:28,952 [INFO] Auto-generated log for IP 10.0.0.28
+2025-09-05 14:03:30,974 [INFO] Auto-generated log for IP 10.0.0.30
+2025-09-05 14:03:32,995 [INFO] Auto-generated log for IP 10.0.0.32
+2025-09-05 14:03:35,045 [INFO] Auto-generated log for IP 10.0.0.34
+2025-09-05 14:03:37,067 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 14:03:39,096 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 14:03:41,120 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 14:03:43,158 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 14:03:45,193 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 14:03:47,228 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 14:03:49,268 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 14:03:51,303 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 14:03:53,338 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 14:03:55,375 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 14:03:57,426 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 14:03:59,448 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 14:04:01,471 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 14:04:03,520 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 14:04:05,554 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 14:04:07,591 [INFO] Auto-generated log for IP 10.0.0.67
+2025-09-05 14:04:09,610 [INFO] Auto-generated log for IP 10.0.0.69
+2025-09-05 14:04:11,644 [INFO] Auto-generated log for IP 10.0.0.71
+2025-09-05 14:04:13,681 [INFO] Auto-generated log for IP 10.0.0.73
+2025-09-05 14:04:15,725 [INFO] Auto-generated log for IP 10.0.0.75
+2025-09-05 14:04:17,759 [INFO] Auto-generated log for IP 10.0.0.77
+2025-09-05 14:04:19,792 [INFO] Auto-generated log for IP 10.0.0.79
+2025-09-05 14:04:21,825 [INFO] Auto-generated log for IP 10.0.0.81
+2025-09-05 14:04:23,847 [INFO] Auto-generated log for IP 10.0.0.83
+2025-09-05 14:04:25,867 [INFO] Auto-generated log for IP 10.0.0.85
+2025-09-05 14:04:27,956 [INFO] Auto-generated log for IP 10.0.0.87
+2025-09-05 14:04:29,987 [INFO] Auto-generated log for IP 10.0.0.89
+2025-09-05 14:04:32,021 [INFO] Auto-generated log for IP 10.0.0.91
+2025-09-05 14:04:34,042 [INFO] Auto-generated log for IP 10.0.0.94
+2025-09-05 14:04:36,078 [INFO] Auto-generated log for IP 10.0.0.96
+2025-09-05 14:04:38,111 [INFO] Auto-generated log for IP 10.0.0.98
+2025-09-05 14:04:40,145 [INFO] Auto-generated log for IP 10.0.0.100
+2025-09-05 14:04:42,192 [INFO] Auto-generated log for IP 10.0.0.102
+2025-09-05 14:04:44,225 [INFO] Auto-generated log for IP 10.0.0.104
+2025-09-05 14:04:46,273 [INFO] Auto-generated log for IP 10.0.0.106
+2025-09-05 14:04:48,322 [INFO] Auto-generated log for IP 10.0.0.108
+2025-09-05 14:04:50,355 [INFO] Auto-generated log for IP 10.0.0.110
+2025-09-05 14:04:52,405 [INFO] Auto-generated log for IP 10.0.0.112
+2025-09-05 14:04:54,451 [INFO] Auto-generated log for IP 10.0.0.114
+2025-09-05 14:04:56,498 [INFO] Auto-generated log for IP 10.0.0.116
+2025-09-05 14:04:58,521 [INFO] Auto-generated log for IP 10.0.0.118
+2025-09-05 14:05:00,564 [INFO] Auto-generated log for IP 10.0.0.120
+2025-09-05 14:05:02,598 [INFO] Auto-generated log for IP 10.0.0.122
+2025-09-05 14:05:04,632 [INFO] Auto-generated log for IP 10.0.0.124
+2025-09-05 14:05:06,662 [INFO] Auto-generated log for IP 10.0.0.126
+2025-09-05 14:05:08,695 [INFO] Auto-generated log for IP 10.0.0.128
+2025-09-05 14:05:10,715 [INFO] Auto-generated log for IP 10.0.0.130
+2025-09-05 14:05:12,750 [INFO] Auto-generated log for IP 10.0.0.132
+2025-09-05 14:05:14,801 [INFO] Auto-generated log for IP 10.0.0.134
+2025-09-05 14:05:16,847 [INFO] Auto-generated log for IP 10.0.0.136
+2025-09-05 14:05:18,870 [INFO] Auto-generated log for IP 10.0.0.138
+2025-09-05 14:05:20,908 [INFO] Auto-generated log for IP 10.0.0.140
+2025-09-05 14:05:29,936 [INFO] Auto-generated log for IP 10.0.0.149
+2025-09-05 14:05:29,987 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 14:05:29,988 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 14:05:29,990 [INFO]  * Restarting with stat
+2025-09-05 14:05:30,500 [WARNING]  * Debugger is active!
+2025-09-05 14:05:30,501 [INFO]  * Debugger PIN: 833-452-960
+2025-09-05 14:05:30,527 [INFO] Auto-generated log for IP 10.0.0.150
+2025-09-05 14:05:31,971 [INFO] Auto-generated log for IP 10.0.0.151
+2025-09-05 14:05:32,563 [INFO] Auto-generated log for IP 10.0.0.152
+2025-09-05 14:05:34,005 [INFO] Auto-generated log for IP 10.0.0.153
+2025-09-05 14:05:34,618 [INFO] Auto-generated log for IP 10.0.0.154
+2025-09-05 14:05:36,038 [INFO] Auto-generated log for IP 10.0.0.156
+2025-09-05 14:05:36,662 [INFO] Auto-generated log for IP 10.0.0.156
+2025-09-05 14:05:38,089 [INFO] Auto-generated log for IP 10.0.0.158
+2025-09-05 14:05:38,685 [INFO] Auto-generated log for IP 10.0.0.158
+2025-09-05 14:05:40,123 [INFO] Auto-generated log for IP 10.0.0.160
+2025-09-05 14:05:40,721 [INFO] Auto-generated log for IP 10.0.0.160
+2025-09-05 14:05:42,168 [INFO] Auto-generated log for IP 10.0.0.162
+2025-09-05 14:05:42,744 [INFO] Auto-generated log for IP 10.0.0.162
+2025-09-05 14:05:44,201 [INFO] Auto-generated log for IP 10.0.0.164
+2025-09-05 14:05:44,766 [INFO] Auto-generated log for IP 10.0.0.164
+2025-09-05 14:05:46,257 [INFO] Auto-generated log for IP 10.0.0.166
+2025-09-05 14:05:46,813 [INFO] Auto-generated log for IP 10.0.0.166
+2025-09-05 14:05:48,299 [INFO] Auto-generated log for IP 10.0.0.168
+2025-09-05 14:05:48,855 [INFO] Auto-generated log for IP 10.0.0.168
+2025-09-05 14:05:50,335 [INFO] Auto-generated log for IP 10.0.0.170
+2025-09-05 14:05:50,932 [INFO] Auto-generated log for IP 10.0.0.170
+2025-09-05 14:05:52,358 [INFO] Auto-generated log for IP 10.0.0.172
+2025-09-05 14:05:52,956 [INFO] Auto-generated log for IP 10.0.0.172
+2025-09-05 14:05:54,384 [INFO] Auto-generated log for IP 10.0.0.174
+2025-09-05 14:05:55,043 [INFO] Auto-generated log for IP 10.0.0.174
+2025-09-05 14:05:56,417 [INFO] Auto-generated log for IP 10.0.0.176
+2025-09-05 14:05:57,077 [INFO] Auto-generated log for IP 10.0.0.177
+2025-09-05 14:05:58,493 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:05:59,152 [INFO] Auto-generated log for IP 10.0.0.179
+2025-09-05 14:06:00,521 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:06:01,191 [INFO] Auto-generated log for IP 10.0.0.181
+2025-09-05 14:06:02,591 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:06:03,230 [INFO] Auto-generated log for IP 10.0.0.183
+2025-09-05 14:06:04,623 [INFO] Auto-generated log for IP 10.0.0.184
+2025-09-05 14:06:05,261 [INFO] Auto-generated log for IP 10.0.0.185
+2025-09-05 14:06:06,759 [INFO] Auto-generated log for IP 10.0.0.186
+2025-09-05 14:06:07,282 [INFO] Auto-generated log for IP 10.0.0.187
+2025-09-05 14:06:08,801 [INFO] Auto-generated log for IP 10.0.0.188
+2025-09-05 14:06:09,320 [INFO] Auto-generated log for IP 10.0.0.189
+2025-09-05 14:06:10,849 [INFO] Auto-generated log for IP 10.0.0.190
+2025-09-05 14:06:11,357 [INFO] Auto-generated log for IP 10.0.0.191
+2025-09-05 14:06:12,881 [INFO] Auto-generated log for IP 10.0.0.192
+2025-09-05 14:06:13,409 [INFO] Auto-generated log for IP 10.0.0.193
+2025-09-05 14:06:14,915 [INFO] Auto-generated log for IP 10.0.0.194
+2025-09-05 14:06:15,451 [INFO] Auto-generated log for IP 10.0.0.195
+2025-09-05 14:06:16,958 [INFO] Auto-generated log for IP 10.0.0.196
+2025-09-05 14:06:17,491 [INFO] Auto-generated log for IP 10.0.0.197
+2025-09-05 14:06:18,995 [INFO] Auto-generated log for IP 10.0.0.198
+2025-09-05 14:06:19,523 [INFO] Auto-generated log for IP 10.0.0.199
+2025-09-05 14:06:21,015 [INFO] Auto-generated log for IP 10.0.0.200
+2025-09-05 14:06:21,572 [INFO] Auto-generated log for IP 10.0.0.201
+2025-09-05 14:06:23,048 [INFO] Auto-generated log for IP 10.0.0.203
+2025-09-05 14:06:23,598 [INFO] Auto-generated log for IP 10.0.0.203
+2025-09-05 14:06:25,083 [INFO] Auto-generated log for IP 10.0.0.205
+2025-09-05 14:06:25,635 [INFO] Auto-generated log for IP 10.0.0.205
+2025-09-05 14:06:27,125 [INFO] Auto-generated log for IP 10.0.0.207
+2025-09-05 14:06:27,672 [INFO] Auto-generated log for IP 10.0.0.207
+2025-09-05 14:06:29,150 [INFO] Auto-generated log for IP 10.0.0.209
+2025-09-05 14:06:29,714 [INFO] Auto-generated log for IP 10.0.0.209
+2025-09-05 14:06:31,212 [INFO] Auto-generated log for IP 10.0.0.211
+2025-09-05 14:06:31,752 [INFO] Auto-generated log for IP 10.0.0.211
+2025-09-05 14:06:33,254 [INFO] Auto-generated log for IP 10.0.0.213
+2025-09-05 14:06:33,790 [INFO] Auto-generated log for IP 10.0.0.213
+2025-09-05 14:06:35,291 [INFO] Auto-generated log for IP 10.0.0.215
+2025-09-05 14:06:35,837 [INFO] Auto-generated log for IP 10.0.0.215
+2025-09-05 14:06:37,331 [INFO] Auto-generated log for IP 10.0.0.217
+2025-09-05 14:06:37,870 [INFO] Auto-generated log for IP 10.0.0.217
+2025-09-05 14:06:39,353 [INFO] Auto-generated log for IP 10.0.0.219
+2025-09-05 14:06:39,903 [INFO] Auto-generated log for IP 10.0.0.219
+2025-09-05 14:06:41,389 [INFO] Auto-generated log for IP 10.0.0.221
+2025-09-05 14:06:41,946 [INFO] Auto-generated log for IP 10.0.0.221
+2025-09-05 14:06:43,417 [INFO] Auto-generated log for IP 10.0.0.223
+2025-09-05 14:06:43,984 [INFO] Auto-generated log for IP 10.0.0.223
+2025-09-05 14:06:45,454 [INFO] Auto-generated log for IP 10.0.0.225
+2025-09-05 14:06:46,034 [INFO] Auto-generated log for IP 10.0.0.225
+2025-09-05 14:06:47,494 [INFO] Auto-generated log for IP 10.0.0.227
+2025-09-05 14:06:48,066 [INFO] Auto-generated log for IP 10.0.0.228
+2025-09-05 14:06:49,530 [INFO] Auto-generated log for IP 10.0.0.229
+2025-09-05 14:06:50,099 [INFO] Auto-generated log for IP 10.0.0.230
+2025-09-05 14:06:51,567 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:06:52,123 [INFO] Auto-generated log for IP 10.0.0.232
+2025-09-05 14:06:53,587 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:06:54,143 [INFO] Auto-generated log for IP 10.0.0.234
+2025-09-05 14:06:55,649 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:06:56,165 [INFO] Auto-generated log for IP 10.0.0.236
+2025-09-05 14:06:57,682 [INFO] Auto-generated log for IP 10.0.0.237
+2025-09-05 14:06:58,244 [INFO] Auto-generated log for IP 10.0.0.238
+2025-09-05 14:06:59,721 [INFO] Auto-generated log for IP 10.0.0.239
+2025-09-05 14:07:00,265 [INFO] Auto-generated log for IP 10.0.0.240
+2025-09-05 14:07:01,755 [INFO] Auto-generated log for IP 10.0.0.241
+2025-09-05 14:07:02,298 [INFO] Auto-generated log for IP 10.0.0.242
+2025-09-05 14:07:02,737 [ERROR] 127.0.0.1 - - [05/Sep/2025 14:07:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02z\x01\x00\x02v\x03\x03)[\x84tD¬\x963\x1a\x8b¬×ÓÎ\x8b-=M©PÒ\x92¨ù\x98\x02\x8f\x0f1\x89{\xad')
+2025-09-05 14:07:02,738 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:02] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03)[\x84tD¬\x963\x1a\x8b¬×ÓÎ\x8b-=M©PÒ\x92¨ù\x98\x02\x8f\x0f1\x89{­ \x83ÞbÖ\x1aÆ\\\x8f©4à·\x8aXã\x10M\x9aC\x93e÷\x9f\x9802ÁÐ\x01\x8a\x05²\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-09-05 14:07:02,740 [ERROR] 127.0.0.1 - - [05/Sep/2025 14:07:02] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-09-05 14:07:02,741 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:02] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03[\x04\x19²k~gð\x16\x9a³åp\x85\x1dw³/\x1dÅðú\\(ë\x12å+)ãáL µ¹Ò\x84ïmÔÄÚt'\x0c|\x01\x1e\x95Hw\x94YIC\x9fÇ²Ä©ÔýàÁ\x0d\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-09-05 14:07:03,787 [INFO] Auto-generated log for IP 10.0.0.243
+2025-09-05 14:07:04,333 [INFO] Auto-generated log for IP 10.0.0.244
+2025-09-05 14:07:05,604 [ERROR] 127.0.0.1 - - [05/Sep/2025 14:07:05] code 400, message Bad request version ('\x861ãÁYe\x8aeùÒ?\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-09-05 14:07:05,604 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:05] "[31m[1m\x16\x03\x01\x02z\x01\x00\x02v\x03\x03Æ®\x10ÃùíÕ°XËØÏUÃ\x9eèLÍ\x00\x0c\x84i«²Þ\x98\x0c%Û\x94Ùm  ÎÞ¡\x9a\x87\\\x0cd/\x07Ö+î\x8ctÀ\x8d\x8d\x99\x1d\x861ãÁYe\x8aeùÒ?\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-09-05 14:07:05,823 [INFO] Auto-generated log for IP 10.0.0.245
+2025-09-05 14:07:06,367 [INFO] Auto-generated log for IP 10.0.0.246
+2025-09-05 14:07:07,863 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:07:08,389 [INFO] Auto-generated log for IP 10.0.0.248
+2025-09-05 14:07:09,891 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:07:10,422 [INFO] Auto-generated log for IP 10.0.0.250
+2025-09-05 14:07:11,914 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 14:07:12,456 [INFO] Auto-generated log for IP 10.0.0.252
+2025-09-05 14:07:13,934 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 14:07:14,503 [INFO] Auto-generated log for IP 10.0.0.254
+2025-09-05 14:07:15,967 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 14:07:16,542 [INFO] Auto-generated log for IP 10.0.0.1
+2025-09-05 14:07:17,989 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 14:07:18,574 [INFO] Auto-generated log for IP 10.0.0.3
+2025-09-05 14:07:20,025 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 14:07:20,625 [INFO] Auto-generated log for IP 10.0.0.5
+2025-09-05 14:07:22,065 [INFO] Auto-generated log for IP 10.0.0.7
+2025-09-05 14:07:22,659 [INFO] Auto-generated log for IP 10.0.0.7
+2025-09-05 14:07:24,097 [INFO] Auto-generated log for IP 10.0.0.9
+2025-09-05 14:07:24,693 [INFO] Auto-generated log for IP 10.0.0.9
+2025-09-05 14:07:26,130 [INFO] Auto-generated log for IP 10.0.0.11
+2025-09-05 14:07:26,728 [INFO] Auto-generated log for IP 10.0.0.11
+2025-09-05 14:07:28,165 [INFO] Auto-generated log for IP 10.0.0.13
+2025-09-05 14:07:28,765 [INFO] Auto-generated log for IP 10.0.0.13
+2025-09-05 14:07:30,199 [INFO] Auto-generated log for IP 10.0.0.15
+2025-09-05 14:07:30,801 [INFO] Auto-generated log for IP 10.0.0.15
+2025-09-05 14:07:32,246 [INFO] Auto-generated log for IP 10.0.0.17
+2025-09-05 14:07:32,834 [INFO] Auto-generated log for IP 10.0.0.17
+2025-09-05 14:07:34,283 [INFO] Auto-generated log for IP 10.0.0.19
+2025-09-05 14:07:34,854 [INFO] Auto-generated log for IP 10.0.0.19
+2025-09-05 14:07:36,314 [INFO] Auto-generated log for IP 10.0.0.21
+2025-09-05 14:07:36,896 [INFO] Auto-generated log for IP 10.0.0.21
+2025-09-05 14:07:38,350 [INFO] Auto-generated log for IP 10.0.0.23
+2025-09-05 14:07:38,930 [INFO] Auto-generated log for IP 10.0.0.23
+2025-09-05 14:07:40,386 [INFO] Auto-generated log for IP 10.0.0.25
+2025-09-05 14:07:40,966 [INFO] Auto-generated log for IP 10.0.0.25
+2025-09-05 14:07:42,429 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 14:07:43,001 [INFO] Auto-generated log for IP 10.0.0.27
+2025-09-05 14:07:43,283 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:44,485 [INFO] Auto-generated log for IP 10.0.0.29
+2025-09-05 14:07:45,039 [INFO] Auto-generated log for IP 10.0.0.30
+2025-09-05 14:07:45,549 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:46,526 [INFO] Auto-generated log for IP 10.0.0.31
+2025-09-05 14:07:47,075 [INFO] Auto-generated log for IP 10.0.0.32
+2025-09-05 14:07:47,613 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:48,565 [INFO] Auto-generated log for IP 10.0.0.33
+2025-09-05 14:07:49,106 [INFO] Auto-generated log for IP 10.0.0.34
+2025-09-05 14:07:49,672 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:49] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:50,595 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 14:07:51,145 [INFO] Auto-generated log for IP 10.0.0.36
+2025-09-05 14:07:51,729 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:51] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:52,634 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 14:07:53,181 [INFO] Auto-generated log for IP 10.0.0.38
+2025-09-05 14:07:53,782 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:07:54,509 [WARNING] Simulated attack blocked from 192.168.1.39
+2025-09-05 14:07:54,678 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 14:07:54,709 [WARNING] Simulated attack blocked from 192.168.1.39
+2025-09-05 14:07:54,836 [WARNING] Simulated attack blocked from 192.168.1.39
+2025-09-05 14:07:55,036 [WARNING] Simulated attack blocked from 192.168.1.39
+2025-09-05 14:07:55,273 [INFO] Auto-generated log for IP 10.0.0.40
+2025-09-05 14:07:55,341 [WARNING] Simulated attack blocked from 192.168.1.40
+2025-09-05 14:07:55,398 [WARNING] Simulated attack blocked from 192.168.1.40
+2025-09-05 14:07:55,573 [WARNING] Simulated attack blocked from 192.168.1.40
+2025-09-05 14:07:56,711 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 14:07:57,320 [INFO] Auto-generated log for IP 10.0.0.42
+2025-09-05 14:07:58,745 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 14:07:59,139 [INFO] Email alert sent.
+2025-09-05 14:07:59,140 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:59] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:07:59,382 [INFO] Auto-generated log for IP 10.0.0.44
+2025-09-05 14:07:59,406 [INFO] Email alert sent.
+2025-09-05 14:07:59,408 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:59] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:07:59,585 [INFO] Email alert sent.
+2025-09-05 14:07:59,586 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:59] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:07:59,864 [INFO] Email alert sent.
+2025-09-05 14:07:59,865 [INFO] 127.0.0.1 - - [05/Sep/2025 14:07:59] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:08:00,785 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 14:08:01,410 [INFO] Auto-generated log for IP 10.0.0.46
+2025-09-05 14:08:01,703 [INFO] Email alert sent.
+2025-09-05 14:08:01,704 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:01] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:08:02,002 [INFO] Email alert sent.
+2025-09-05 14:08:02,002 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:02] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:08:02,016 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:02] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:02,820 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 14:08:03,129 [INFO] Email alert sent.
+2025-09-05 14:08:03,130 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:03] "[32mGET /simulate HTTP/1.1[0m" 302 -
+2025-09-05 14:08:03,475 [INFO] Auto-generated log for IP 10.0.0.48
+2025-09-05 14:08:04,086 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:04] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:04,874 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 14:08:05,510 [INFO] Auto-generated log for IP 10.0.0.50
+2025-09-05 14:08:06,142 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:06] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:06,915 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 14:08:07,544 [INFO] Auto-generated log for IP 10.0.0.52
+2025-09-05 14:08:08,451 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:08] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:08,950 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 14:08:09,578 [INFO] Auto-generated log for IP 10.0.0.54
+2025-09-05 14:08:10,515 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:10] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:10,986 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 14:08:11,664 [INFO] Auto-generated log for IP 10.0.0.56
+2025-09-05 14:08:12,565 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:12] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:13,079 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 14:08:13,706 [INFO] Auto-generated log for IP 10.0.0.58
+2025-09-05 14:08:14,620 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:14] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:15,135 [INFO] Auto-generated log for IP 10.0.0.60
+2025-09-05 14:08:15,754 [INFO] Auto-generated log for IP 10.0.0.60
+2025-09-05 14:08:16,672 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:16] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:17,181 [INFO] Auto-generated log for IP 10.0.0.62
+2025-09-05 14:08:17,796 [INFO] Auto-generated log for IP 10.0.0.62
+2025-09-05 14:08:18,718 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:18] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:19,263 [INFO] Auto-generated log for IP 10.0.0.64
+2025-09-05 14:08:19,831 [INFO] Auto-generated log for IP 10.0.0.64
+2025-09-05 14:08:20,781 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:20] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:21,298 [INFO] Auto-generated log for IP 10.0.0.66
+2025-09-05 14:08:21,873 [INFO] Auto-generated log for IP 10.0.0.66
+2025-09-05 14:08:22,839 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:22] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:23,335 [INFO] Auto-generated log for IP 10.0.0.68
+2025-09-05 14:08:23,908 [INFO] Auto-generated log for IP 10.0.0.68
+2025-09-05 14:08:24,893 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:25,375 [INFO] Auto-generated log for IP 10.0.0.70
+2025-09-05 14:08:25,934 [INFO] Auto-generated log for IP 10.0.0.70
+2025-09-05 14:08:26,944 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:26] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:27,417 [INFO] Auto-generated log for IP 10.0.0.72
+2025-09-05 14:08:27,967 [INFO] Auto-generated log for IP 10.0.0.72
+2025-09-05 14:08:28,998 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:28] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:29,464 [INFO] Auto-generated log for IP 10.0.0.74
+2025-09-05 14:08:29,999 [INFO] Auto-generated log for IP 10.0.0.74
+2025-09-05 14:08:31,054 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:31] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:31,532 [INFO] Auto-generated log for IP 10.0.0.76
+2025-09-05 14:08:32,034 [INFO] Auto-generated log for IP 10.0.0.76
+2025-09-05 14:08:33,106 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:33,584 [INFO] Auto-generated log for IP 10.0.0.78
+2025-09-05 14:08:34,110 [INFO] Auto-generated log for IP 10.0.0.79
+2025-09-05 14:08:35,167 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:35] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:35,627 [INFO] Auto-generated log for IP 10.0.0.80
+2025-09-05 14:08:36,151 [INFO] Auto-generated log for IP 10.0.0.81
+2025-09-05 14:08:37,235 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:37] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:37,654 [INFO] Auto-generated log for IP 10.0.0.82
+2025-09-05 14:08:38,172 [INFO] Auto-generated log for IP 10.0.0.83
+2025-09-05 14:08:39,287 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:39] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:39,703 [INFO] Auto-generated log for IP 10.0.0.84
+2025-09-05 14:08:40,252 [INFO] Auto-generated log for IP 10.0.0.85
+2025-09-05 14:08:41,392 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:41] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:41,744 [INFO] Auto-generated log for IP 10.0.0.86
+2025-09-05 14:08:42,286 [INFO] Auto-generated log for IP 10.0.0.87
+2025-09-05 14:08:43,539 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:43,774 [INFO] Auto-generated log for IP 10.0.0.88
+2025-09-05 14:08:44,352 [INFO] Auto-generated log for IP 10.0.0.89
+2025-09-05 14:08:45,647 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:45,810 [INFO] Auto-generated log for IP 10.0.0.90
+2025-09-05 14:08:46,373 [INFO] Auto-generated log for IP 10.0.0.91
+2025-09-05 14:08:47,695 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:47,893 [INFO] Auto-generated log for IP 10.0.0.92
+2025-09-05 14:08:48,408 [INFO] Auto-generated log for IP 10.0.0.93
+2025-09-05 14:08:49,815 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:49] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:49,948 [INFO] Auto-generated log for IP 10.0.0.94
+2025-09-05 14:08:50,479 [INFO] Auto-generated log for IP 10.0.0.95
+2025-09-05 14:08:51,879 [INFO] 127.0.0.1 - - [05/Sep/2025 14:08:51] "GET / HTTP/1.1" 200 -
+2025-09-05 14:08:52,031 [INFO] Auto-generated log for IP 10.0.0.96
+2025-09-05 14:08:52,525 [INFO] Auto-generated log for IP 10.0.0.97
+2025-09-05 14:08:54,068 [INFO] Auto-generated log for IP 10.0.0.99
+2025-09-05 14:08:54,566 [INFO] Auto-generated log for IP 10.0.0.99
+2025-09-05 14:09:48,688 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 14:09:48,689 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 14:09:48,690 [INFO]  * Restarting with stat
+2025-09-05 14:09:48,704 [INFO] Auto-generated log for IP 10.0.0.153
+2025-09-05 14:09:48,938 [WARNING]  * Debugger is active!
+2025-09-05 14:09:48,939 [INFO]  * Debugger PIN: 833-452-960
+2025-09-05 14:09:48,967 [INFO] Auto-generated log for IP 10.0.0.153
+2025-09-05 14:09:50,726 [INFO] Auto-generated log for IP 10.0.0.155
+2025-09-05 14:09:51,006 [INFO] Auto-generated log for IP 10.0.0.155
+2025-09-05 14:09:52,767 [INFO] Auto-generated log for IP 10.0.0.157
+2025-09-05 14:09:53,041 [INFO] Auto-generated log for IP 10.0.0.158
+2025-09-05 14:09:54,804 [INFO] Auto-generated log for IP 10.0.0.159
+2025-09-05 14:09:55,074 [INFO] Auto-generated log for IP 10.0.0.160
+2025-09-05 14:09:56,837 [INFO] Auto-generated log for IP 10.0.0.161
+2025-09-05 14:09:57,110 [INFO] Auto-generated log for IP 10.0.0.162
+2025-09-05 14:09:58,871 [INFO] Auto-generated log for IP 10.0.0.163
+2025-09-05 14:09:59,150 [INFO] Auto-generated log for IP 10.0.0.164
+2025-09-05 14:10:00,910 [INFO] Auto-generated log for IP 10.0.0.165
+2025-09-05 14:10:01,183 [INFO] Auto-generated log for IP 10.0.0.166
+2025-09-05 14:10:02,951 [INFO] Auto-generated log for IP 10.0.0.167
+2025-09-05 14:10:03,207 [INFO] Auto-generated log for IP 10.0.0.168
+2025-09-05 14:10:04,993 [INFO] Auto-generated log for IP 10.0.0.169
+2025-09-05 14:10:05,242 [INFO] Auto-generated log for IP 10.0.0.170
+2025-09-05 14:10:07,034 [INFO] Auto-generated log for IP 10.0.0.171
+2025-09-05 14:10:07,278 [INFO] Auto-generated log for IP 10.0.0.172
+2025-09-05 14:10:09,085 [INFO] Auto-generated log for IP 10.0.0.174
+2025-09-05 14:10:09,325 [INFO] Auto-generated log for IP 10.0.0.174
+2025-09-05 14:10:11,111 [INFO] Auto-generated log for IP 10.0.0.176
+2025-09-05 14:10:11,362 [INFO] Auto-generated log for IP 10.0.0.176
+2025-09-05 14:10:13,146 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:10:13,401 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:10:15,187 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:10:15,440 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:10:17,251 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:10:17,480 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:10:19,291 [INFO] Auto-generated log for IP 10.0.0.184
+2025-09-05 14:10:19,515 [INFO] Auto-generated log for IP 10.0.0.184
+2025-09-05 14:10:21,325 [INFO] Auto-generated log for IP 10.0.0.186
+2025-09-05 14:10:21,571 [INFO] Auto-generated log for IP 10.0.0.186
+2025-09-05 14:10:23,447 [INFO] Auto-generated log for IP 10.0.0.188
+2025-09-05 14:10:23,622 [INFO] Auto-generated log for IP 10.0.0.188
+2025-09-05 14:10:24,937 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:25,505 [INFO] Auto-generated log for IP 10.0.0.190
+2025-09-05 14:10:25,670 [INFO] Auto-generated log for IP 10.0.0.190
+2025-09-05 14:10:27,523 [INFO] Auto-generated log for IP 10.0.0.192
+2025-09-05 14:10:27,723 [INFO] Auto-generated log for IP 10.0.0.192
+2025-09-05 14:10:28,527 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:28] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:29,601 [INFO] Auto-generated log for IP 10.0.0.194
+2025-09-05 14:10:29,743 [INFO] Auto-generated log for IP 10.0.0.194
+2025-09-05 14:10:31,659 [INFO] Auto-generated log for IP 10.0.0.196
+2025-09-05 14:10:31,681 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:31] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:31,780 [INFO] Auto-generated log for IP 10.0.0.196
+2025-09-05 14:10:33,699 [INFO] Auto-generated log for IP 10.0.0.198
+2025-09-05 14:10:33,799 [INFO] Auto-generated log for IP 10.0.0.198
+2025-09-05 14:10:34,731 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:34] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:35,719 [INFO] Auto-generated log for IP 10.0.0.200
+2025-09-05 14:10:35,819 [INFO] Auto-generated log for IP 10.0.0.200
+2025-09-05 14:10:37,762 [INFO] Auto-generated log for IP 10.0.0.202
+2025-09-05 14:10:37,842 [INFO] Auto-generated log for IP 10.0.0.202
+2025-09-05 14:10:37,872 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:37] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:39,790 [INFO] Auto-generated log for IP 10.0.0.204
+2025-09-05 14:10:39,870 [INFO] Auto-generated log for IP 10.0.0.204
+2025-09-05 14:10:40,921 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:40] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:41,825 [INFO] Auto-generated log for IP 10.0.0.206
+2025-09-05 14:10:41,920 [INFO] Auto-generated log for IP 10.0.0.206
+2025-09-05 14:10:43,861 [INFO] Auto-generated log for IP 10.0.0.208
+2025-09-05 14:10:43,989 [INFO] Auto-generated log for IP 10.0.0.208
+2025-09-05 14:10:43,994 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:45,899 [INFO] Auto-generated log for IP 10.0.0.210
+2025-09-05 14:10:46,011 [INFO] Auto-generated log for IP 10.0.0.210
+2025-09-05 14:10:47,187 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:47,939 [INFO] Auto-generated log for IP 10.0.0.212
+2025-09-05 14:10:48,033 [INFO] Auto-generated log for IP 10.0.0.213
+2025-09-05 14:10:49,988 [INFO] Auto-generated log for IP 10.0.0.214
+2025-09-05 14:10:50,058 [INFO] Auto-generated log for IP 10.0.0.215
+2025-09-05 14:10:50,301 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:50] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:52,024 [INFO] Auto-generated log for IP 10.0.0.216
+2025-09-05 14:10:52,093 [INFO] Auto-generated log for IP 10.0.0.217
+2025-09-05 14:10:53,550 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:54,078 [INFO] Auto-generated log for IP 10.0.0.219
+2025-09-05 14:10:54,116 [INFO] Auto-generated log for IP 10.0.0.219
+2025-09-05 14:10:56,119 [INFO] Auto-generated log for IP 10.0.0.221
+2025-09-05 14:10:56,141 [INFO] Auto-generated log for IP 10.0.0.221
+2025-09-05 14:10:56,604 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:56] "GET / HTTP/1.1" 200 -
+2025-09-05 14:10:58,145 [INFO] Auto-generated log for IP 10.0.0.223
+2025-09-05 14:10:58,174 [INFO] Auto-generated log for IP 10.0.0.223
+2025-09-05 14:10:59,646 [INFO] 127.0.0.1 - - [05/Sep/2025 14:10:59] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:00,201 [INFO] Auto-generated log for IP 10.0.0.225
+2025-09-05 14:11:00,224 [INFO] Auto-generated log for IP 10.0.0.225
+2025-09-05 14:11:02,237 [INFO] Auto-generated log for IP 10.0.0.227
+2025-09-05 14:11:02,275 [INFO] Auto-generated log for IP 10.0.0.227
+2025-09-05 14:11:02,707 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:02] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:04,273 [INFO] Auto-generated log for IP 10.0.0.229
+2025-09-05 14:11:04,299 [INFO] Auto-generated log for IP 10.0.0.229
+2025-09-05 14:11:05,771 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:05] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:06,314 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:11:06,344 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:11:08,354 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:11:08,410 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:11:08,811 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:08] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:10,407 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:11:10,435 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:11:11,859 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:11] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:12,433 [INFO] Auto-generated log for IP 10.0.0.237
+2025-09-05 14:11:12,463 [INFO] Auto-generated log for IP 10.0.0.237
+2025-09-05 14:11:14,472 [INFO] Auto-generated log for IP 10.0.0.239
+2025-09-05 14:11:14,504 [INFO] Auto-generated log for IP 10.0.0.239
+2025-09-05 14:11:14,914 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:14] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:16,508 [INFO] Auto-generated log for IP 10.0.0.241
+2025-09-05 14:11:16,536 [INFO] Auto-generated log for IP 10.0.0.241
+2025-09-05 14:11:17,968 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:17] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:18,557 [INFO] Auto-generated log for IP 10.0.0.243
+2025-09-05 14:11:18,627 [INFO] Auto-generated log for IP 10.0.0.243
+2025-09-05 14:11:20,595 [INFO] Auto-generated log for IP 10.0.0.245
+2025-09-05 14:11:20,703 [INFO] Auto-generated log for IP 10.0.0.245
+2025-09-05 14:11:21,024 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:21] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:22,652 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:11:22,741 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:11:24,151 [INFO] 127.0.0.1 - - [05/Sep/2025 14:11:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:11:24,695 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:11:24,783 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:12:04,652 [INFO] Added missing status column to blocked_ips
+2025-09-05 14:12:04,699 [INFO] Auto-generated log for IP 10.0.0.34
+2025-09-05 14:12:04,717 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 14:12:04,717 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 14:12:04,718 [INFO]  * Restarting with stat
+2025-09-05 14:12:05,209 [INFO] Auto-generated log for IP 10.0.0.35
+2025-09-05 14:12:05,213 [WARNING]  * Debugger is active!
+2025-09-05 14:12:05,214 [INFO]  * Debugger PIN: 833-452-960
+2025-09-05 14:12:06,742 [INFO] Auto-generated log for IP 10.0.0.36
+2025-09-05 14:12:07,261 [INFO] Auto-generated log for IP 10.0.0.37
+2025-09-05 14:12:08,787 [INFO] Auto-generated log for IP 10.0.0.38
+2025-09-05 14:12:09,312 [INFO] Auto-generated log for IP 10.0.0.39
+2025-09-05 14:12:10,822 [INFO] Auto-generated log for IP 10.0.0.40
+2025-09-05 14:12:11,345 [INFO] Auto-generated log for IP 10.0.0.41
+2025-09-05 14:12:12,864 [INFO] Auto-generated log for IP 10.0.0.42
+2025-09-05 14:12:13,392 [INFO] Auto-generated log for IP 10.0.0.43
+2025-09-05 14:12:14,896 [INFO] Auto-generated log for IP 10.0.0.44
+2025-09-05 14:12:15,413 [INFO] Auto-generated log for IP 10.0.0.45
+2025-09-05 14:12:16,937 [INFO] Auto-generated log for IP 10.0.0.46
+2025-09-05 14:12:17,435 [INFO] Auto-generated log for IP 10.0.0.47
+2025-09-05 14:12:18,976 [INFO] Auto-generated log for IP 10.0.0.48
+2025-09-05 14:12:19,456 [INFO] Auto-generated log for IP 10.0.0.49
+2025-09-05 14:12:21,010 [INFO] Auto-generated log for IP 10.0.0.50
+2025-09-05 14:12:21,498 [INFO] Auto-generated log for IP 10.0.0.51
+2025-09-05 14:12:21,667 [INFO] 127.0.0.1 - - [05/Sep/2025 14:12:21] "GET / HTTP/1.1" 200 -
+2025-09-05 14:12:23,064 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 14:12:23,520 [INFO] Auto-generated log for IP 10.0.0.53
+2025-09-05 14:12:24,747 [INFO] 127.0.0.1 - - [05/Sep/2025 14:12:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:12:25,096 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 14:12:25,573 [INFO] Auto-generated log for IP 10.0.0.55
+2025-09-05 14:12:27,131 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 14:12:27,610 [INFO] Auto-generated log for IP 10.0.0.57
+2025-09-05 14:12:27,822 [INFO] 127.0.0.1 - - [05/Sep/2025 14:12:27] "GET / HTTP/1.1" 200 -
+2025-09-05 14:12:29,166 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 14:12:29,656 [INFO] Auto-generated log for IP 10.0.0.59
+2025-09-05 14:12:30,977 [INFO] 127.0.0.1 - - [05/Sep/2025 14:12:30] "GET / HTTP/1.1" 200 -
+2025-09-05 14:12:31,235 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 14:12:31,683 [INFO] Auto-generated log for IP 10.0.0.61
+2025-09-05 14:12:33,261 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 14:12:33,716 [INFO] Auto-generated log for IP 10.0.0.63
+2025-09-05 14:12:34,053 [INFO] 127.0.0.1 - - [05/Sep/2025 14:12:34] "GET / HTTP/1.1" 200 -
+2025-09-05 14:12:35,305 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 14:12:35,751 [INFO] Auto-generated log for IP 10.0.0.65
+2025-09-05 14:14:08,488 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 14:14:08,489 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 14:14:08,489 [INFO] Auto-generated log for IP 10.0.0.158
+2025-09-05 14:14:08,491 [INFO]  * Restarting with stat
+2025-09-05 14:14:08,852 [WARNING]  * Debugger is active!
+2025-09-05 14:14:08,853 [INFO]  * Debugger PIN: 833-452-960
+2025-09-05 14:14:08,906 [INFO] Auto-generated log for IP 10.0.0.158
+2025-09-05 14:14:10,545 [INFO] Auto-generated log for IP 10.0.0.160
+2025-09-05 14:14:10,926 [INFO] Auto-generated log for IP 10.0.0.160
+2025-09-05 14:14:12,594 [INFO] Auto-generated log for IP 10.0.0.162
+2025-09-05 14:14:12,964 [INFO] Auto-generated log for IP 10.0.0.162
+2025-09-05 14:14:14,648 [INFO] Auto-generated log for IP 10.0.0.164
+2025-09-05 14:14:14,672 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:14] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:15,046 [INFO] Auto-generated log for IP 10.0.0.164
+2025-09-05 14:14:16,670 [INFO] Auto-generated log for IP 10.0.0.166
+2025-09-05 14:14:17,114 [INFO] Auto-generated log for IP 10.0.0.167
+2025-09-05 14:14:17,763 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:17] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:18,704 [INFO] Auto-generated log for IP 10.0.0.168
+2025-09-05 14:14:19,164 [INFO] Auto-generated log for IP 10.0.0.169
+2025-09-05 14:14:20,738 [INFO] Auto-generated log for IP 10.0.0.170
+2025-09-05 14:14:20,903 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:20] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:21,191 [INFO] Auto-generated log for IP 10.0.0.171
+2025-09-05 14:14:22,798 [INFO] Auto-generated log for IP 10.0.0.172
+2025-09-05 14:14:23,225 [INFO] Auto-generated log for IP 10.0.0.173
+2025-09-05 14:14:23,965 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:23] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:24,851 [INFO] Auto-generated log for IP 10.0.0.174
+2025-09-05 14:14:25,288 [INFO] Auto-generated log for IP 10.0.0.175
+2025-09-05 14:14:26,889 [INFO] Auto-generated log for IP 10.0.0.176
+2025-09-05 14:14:27,018 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:27] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:27,340 [INFO] Auto-generated log for IP 10.0.0.177
+2025-09-05 14:14:28,924 [INFO] Auto-generated log for IP 10.0.0.178
+2025-09-05 14:14:29,377 [INFO] Auto-generated log for IP 10.0.0.179
+2025-09-05 14:14:30,190 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:30] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:30,991 [INFO] Auto-generated log for IP 10.0.0.180
+2025-09-05 14:14:31,409 [INFO] Auto-generated log for IP 10.0.0.181
+2025-09-05 14:14:33,021 [INFO] Auto-generated log for IP 10.0.0.182
+2025-09-05 14:14:33,240 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:33,463 [INFO] Auto-generated log for IP 10.0.0.183
+2025-09-05 14:14:35,072 [INFO] Auto-generated log for IP 10.0.0.185
+2025-09-05 14:14:35,518 [INFO] Auto-generated log for IP 10.0.0.185
+2025-09-05 14:14:36,445 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:36] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:37,124 [INFO] Auto-generated log for IP 10.0.0.187
+2025-09-05 14:14:37,590 [INFO] Auto-generated log for IP 10.0.0.187
+2025-09-05 14:14:39,177 [INFO] Auto-generated log for IP 10.0.0.189
+2025-09-05 14:14:39,542 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:39] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:39,623 [INFO] Auto-generated log for IP 10.0.0.189
+2025-09-05 14:14:41,212 [INFO] Auto-generated log for IP 10.0.0.191
+2025-09-05 14:14:41,660 [INFO] Auto-generated log for IP 10.0.0.191
+2025-09-05 14:14:42,608 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:42] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:43,284 [INFO] Auto-generated log for IP 10.0.0.193
+2025-09-05 14:14:43,686 [INFO] Auto-generated log for IP 10.0.0.193
+2025-09-05 14:14:45,309 [INFO] Auto-generated log for IP 10.0.0.195
+2025-09-05 14:14:45,664 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:45,709 [INFO] Auto-generated log for IP 10.0.0.195
+2025-09-05 14:14:47,338 [INFO] Auto-generated log for IP 10.0.0.197
+2025-09-05 14:14:47,962 [INFO] Auto-generated log for IP 10.0.0.197
+2025-09-05 14:14:48,789 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:48] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:49,357 [INFO] Auto-generated log for IP 10.0.0.199
+2025-09-05 14:14:49,983 [INFO] Auto-generated log for IP 10.0.0.199
+2025-09-05 14:14:51,376 [INFO] Auto-generated log for IP 10.0.0.201
+2025-09-05 14:14:51,833 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:51] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:52,046 [INFO] Auto-generated log for IP 10.0.0.202
+2025-09-05 14:14:53,394 [INFO] Auto-generated log for IP 10.0.0.203
+2025-09-05 14:14:54,064 [INFO] Auto-generated log for IP 10.0.0.204
+2025-09-05 14:14:54,883 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:54] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:55,412 [INFO] Auto-generated log for IP 10.0.0.205
+2025-09-05 14:14:56,117 [INFO] Auto-generated log for IP 10.0.0.206
+2025-09-05 14:14:57,434 [INFO] Auto-generated log for IP 10.0.0.207
+2025-09-05 14:14:57,930 [INFO] 127.0.0.1 - - [05/Sep/2025 14:14:57] "GET / HTTP/1.1" 200 -
+2025-09-05 14:14:58,173 [INFO] Auto-generated log for IP 10.0.0.208
+2025-09-05 14:14:59,467 [INFO] Auto-generated log for IP 10.0.0.209
+2025-09-05 14:15:00,197 [INFO] Auto-generated log for IP 10.0.0.210
+2025-09-05 14:15:00,993 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:00] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:01,488 [INFO] Auto-generated log for IP 10.0.0.211
+2025-09-05 14:15:02,270 [INFO] Auto-generated log for IP 10.0.0.212
+2025-09-05 14:15:03,524 [INFO] Auto-generated log for IP 10.0.0.213
+2025-09-05 14:15:04,048 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:04] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:04,319 [INFO] Auto-generated log for IP 10.0.0.214
+2025-09-05 14:15:05,605 [INFO] Auto-generated log for IP 10.0.0.215
+2025-09-05 14:15:06,355 [INFO] Auto-generated log for IP 10.0.0.216
+2025-09-05 14:15:07,095 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:07] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:07,665 [INFO] Auto-generated log for IP 10.0.0.217
+2025-09-05 14:15:08,390 [INFO] Auto-generated log for IP 10.0.0.218
+2025-09-05 14:15:09,699 [INFO] Auto-generated log for IP 10.0.0.219
+2025-09-05 14:15:10,146 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:10] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:10,426 [INFO] Auto-generated log for IP 10.0.0.220
+2025-09-05 14:15:11,734 [INFO] Auto-generated log for IP 10.0.0.221
+2025-09-05 14:15:12,454 [INFO] Auto-generated log for IP 10.0.0.222
+2025-09-05 14:15:13,239 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:13] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:13,768 [INFO] Auto-generated log for IP 10.0.0.223
+2025-09-05 14:15:14,519 [INFO] Auto-generated log for IP 10.0.0.224
+2025-09-05 14:15:15,807 [INFO] Auto-generated log for IP 10.0.0.225
+2025-09-05 14:15:16,293 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:16] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:16,570 [INFO] Auto-generated log for IP 10.0.0.226
+2025-09-05 14:15:17,829 [INFO] Auto-generated log for IP 10.0.0.227
+2025-09-05 14:15:18,612 [INFO] Auto-generated log for IP 10.0.0.228
+2025-09-05 14:15:19,337 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:19] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:19,866 [INFO] Auto-generated log for IP 10.0.0.229
+2025-09-05 14:15:20,649 [INFO] Auto-generated log for IP 10.0.0.230
+2025-09-05 14:15:21,910 [INFO] Auto-generated log for IP 10.0.0.231
+2025-09-05 14:15:22,397 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:22] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:22,686 [INFO] Auto-generated log for IP 10.0.0.232
+2025-09-05 14:15:23,976 [INFO] Auto-generated log for IP 10.0.0.233
+2025-09-05 14:15:24,721 [INFO] Auto-generated log for IP 10.0.0.234
+2025-09-05 14:15:25,450 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:25] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:26,013 [INFO] Auto-generated log for IP 10.0.0.235
+2025-09-05 14:15:26,778 [INFO] Auto-generated log for IP 10.0.0.236
+2025-09-05 14:15:28,047 [INFO] Auto-generated log for IP 10.0.0.238
+2025-09-05 14:15:28,498 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:28] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:28,827 [INFO] Auto-generated log for IP 10.0.0.238
+2025-09-05 14:15:30,102 [INFO] Auto-generated log for IP 10.0.0.240
+2025-09-05 14:15:30,861 [INFO] Auto-generated log for IP 10.0.0.240
+2025-09-05 14:15:31,579 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:31] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:32,147 [INFO] Auto-generated log for IP 10.0.0.242
+2025-09-05 14:15:32,923 [INFO] Auto-generated log for IP 10.0.0.242
+2025-09-05 14:15:34,182 [INFO] Auto-generated log for IP 10.0.0.244
+2025-09-05 14:15:34,790 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:34] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:35,002 [INFO] Auto-generated log for IP 10.0.0.244
+2025-09-05 14:15:36,215 [INFO] Auto-generated log for IP 10.0.0.246
+2025-09-05 14:15:37,040 [INFO] Auto-generated log for IP 10.0.0.247
+2025-09-05 14:15:37,843 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:37] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:38,251 [INFO] Auto-generated log for IP 10.0.0.248
+2025-09-05 14:15:39,075 [INFO] Auto-generated log for IP 10.0.0.249
+2025-09-05 14:15:40,288 [INFO] Auto-generated log for IP 10.0.0.250
+2025-09-05 14:15:40,914 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:40] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:41,145 [INFO] Auto-generated log for IP 10.0.0.251
+2025-09-05 14:15:42,334 [INFO] Auto-generated log for IP 10.0.0.252
+2025-09-05 14:15:43,191 [INFO] Auto-generated log for IP 10.0.0.253
+2025-09-05 14:15:43,980 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:44,377 [INFO] Auto-generated log for IP 10.0.0.254
+2025-09-05 14:15:45,246 [INFO] Auto-generated log for IP 10.0.0.0
+2025-09-05 14:15:45,267 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:46,231 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:46] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:46,403 [INFO] Auto-generated log for IP 10.0.0.1
+2025-09-05 14:15:46,926 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:46] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:47,286 [INFO] Auto-generated log for IP 10.0.0.2
+2025-09-05 14:15:47,470 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:47,751 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:48,438 [INFO] Auto-generated log for IP 10.0.0.3
+2025-09-05 14:15:49,324 [INFO] Auto-generated log for IP 10.0.0.4
+2025-09-05 14:15:50,479 [INFO] Auto-generated log for IP 10.0.0.5
+2025-09-05 14:15:50,854 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:50] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:51,409 [INFO] Auto-generated log for IP 10.0.0.6
+2025-09-05 14:15:52,515 [INFO] Auto-generated log for IP 10.0.0.7
+2025-09-05 14:15:53,447 [INFO] Auto-generated log for IP 10.0.0.8
+2025-09-05 14:15:53,906 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:54,544 [INFO] Auto-generated log for IP 10.0.0.9
+2025-09-05 14:15:55,483 [INFO] Auto-generated log for IP 10.0.0.10
+2025-09-05 14:15:56,596 [INFO] Auto-generated log for IP 10.0.0.11
+2025-09-05 14:15:57,026 [INFO] 127.0.0.1 - - [05/Sep/2025 14:15:57] "GET / HTTP/1.1" 200 -
+2025-09-05 14:15:57,527 [INFO] Auto-generated log for IP 10.0.0.12
+2025-09-05 14:15:58,631 [INFO] Auto-generated log for IP 10.0.0.13
+2025-09-05 14:15:59,569 [INFO] Auto-generated log for IP 10.0.0.14
+2025-09-05 14:20:19,437 [INFO] Traffic event: 10.0.0.19 => MITIGATED
+2025-09-05 14:20:19,439 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-05 14:20:19,439 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 14:20:19,440 [INFO]  * Restarting with stat
+2025-09-05 14:20:19,632 [INFO] Traffic event: 10.0.0.19 => THROUGH
+2025-09-05 14:20:19,650 [WARNING]  * Debugger is active!
+2025-09-05 14:20:19,651 [INFO]  * Debugger PIN: 833-452-960
+2025-09-05 14:20:21,474 [INFO] Traffic event: 10.0.0.21 => THROUGH
+2025-09-05 14:20:21,648 [INFO] Traffic event: 10.0.0.21 => MITIGATED
+2025-09-05 14:20:23,502 [INFO] Traffic event: 10.0.0.23 => MITIGATED
+2025-09-05 14:20:23,663 [INFO] Traffic event: 10.0.0.23 => THROUGH
+2025-09-05 14:20:25,533 [INFO] Traffic event: 10.0.0.25 => MITIGATED
+2025-09-05 14:20:25,679 [INFO] Traffic event: 10.0.0.25 => MITIGATED
+2025-09-05 14:20:27,567 [INFO] Traffic event: 10.0.0.27 => MITIGATED
+2025-09-05 14:20:27,699 [INFO] Traffic event: 10.0.0.27 => THROUGH
+2025-09-05 14:20:27,715 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:27] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:29,594 [INFO] Traffic event: 10.0.0.29 => MITIGATED
+2025-09-05 14:20:29,714 [INFO] Traffic event: 10.0.0.29 => THROUGH
+2025-09-05 14:20:30,898 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:30] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:31,622 [INFO] Traffic event: 10.0.0.31 => MITIGATED
+2025-09-05 14:20:31,731 [INFO] Traffic event: 10.0.0.31 => THROUGH
+2025-09-05 14:20:33,642 [INFO] Traffic event: 10.0.0.33 => MITIGATED
+2025-09-05 14:20:33,746 [INFO] Traffic event: 10.0.0.33 => MITIGATED
+2025-09-05 14:20:33,926 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:35,660 [INFO] Traffic event: 10.0.0.35 => THROUGH
+2025-09-05 14:20:35,760 [INFO] Traffic event: 10.0.0.35 => BLOCKED
+2025-09-05 14:20:37,110 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:37] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:37,727 [INFO] Traffic event: 10.0.0.37 => MITIGATED
+2025-09-05 14:20:37,808 [INFO] Traffic event: 10.0.0.37 => BLOCKED
+2025-09-05 14:20:39,752 [INFO] Traffic event: 10.0.0.39 => THROUGH
+2025-09-05 14:20:39,825 [INFO] Traffic event: 10.0.0.39 => MITIGATED
+2025-09-05 14:20:40,142 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:40] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:41,789 [INFO] Traffic event: 10.0.0.41 => MITIGATED
+2025-09-05 14:20:41,842 [INFO] Traffic event: 10.0.0.41 => THROUGH
+2025-09-05 14:20:43,169 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:43,820 [INFO] Traffic event: 10.0.0.43 => MITIGATED
+2025-09-05 14:20:43,896 [INFO] Traffic event: 10.0.0.43 => BLOCKED
+2025-09-05 14:20:45,840 [INFO] Traffic event: 10.0.0.45 => THROUGH
+2025-09-05 14:20:45,911 [INFO] Traffic event: 10.0.0.45 => MITIGATED
+2025-09-05 14:20:46,452 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:46] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:47,884 [INFO] Traffic event: 10.0.0.47 => THROUGH
+2025-09-05 14:20:47,927 [INFO] Traffic event: 10.0.0.47 => THROUGH
+2025-09-05 14:20:49,530 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:49] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:49,965 [INFO] Traffic event: 10.0.0.49 => BLOCKED
+2025-09-05 14:20:49,990 [INFO] Traffic event: 10.0.0.49 => MITIGATED
+2025-09-05 14:20:51,993 [INFO] Traffic event: 10.0.0.51 => MITIGATED
+2025-09-05 14:20:52,011 [INFO] Traffic event: 10.0.0.51 => MITIGATED
+2025-09-05 14:20:52,567 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:52] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:54,053 [INFO] Traffic event: 10.0.0.54 => THROUGH
+2025-09-05 14:20:54,083 [INFO] Traffic event: 10.0.0.54 => MITIGATED
+2025-09-05 14:20:55,618 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:55] "GET / HTTP/1.1" 200 -
+2025-09-05 14:20:56,086 [INFO] Traffic event: 10.0.0.56 => THROUGH
+2025-09-05 14:20:56,105 [INFO] Traffic event: 10.0.0.56 => THROUGH
+2025-09-05 14:20:58,115 [INFO] Traffic event: 10.0.0.58 => MITIGATED
+2025-09-05 14:20:58,133 [INFO] Traffic event: 10.0.0.58 => BLOCKED
+2025-09-05 14:20:58,699 [INFO] 127.0.0.1 - - [05/Sep/2025 14:20:58] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:00,142 [INFO] Traffic event: 10.0.0.60 => THROUGH
+2025-09-05 14:21:00,159 [INFO] Traffic event: 10.0.0.60 => THROUGH
+2025-09-05 14:21:01,848 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:01] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:02,173 [INFO] Traffic event: 10.0.0.62 => THROUGH
+2025-09-05 14:21:02,196 [INFO] Traffic event: 10.0.0.62 => MITIGATED
+2025-09-05 14:21:04,207 [INFO] Traffic event: 10.0.0.64 => MITIGATED
+2025-09-05 14:21:04,225 [INFO] Traffic event: 10.0.0.64 => THROUGH
+2025-09-05 14:21:04,884 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:04] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:06,243 [INFO] Traffic event: 10.0.0.66 => MITIGATED
+2025-09-05 14:21:06,284 [INFO] Traffic event: 10.0.0.66 => THROUGH
+2025-09-05 14:21:07,926 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:07] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:08,295 [INFO] Traffic event: 10.0.0.68 => MITIGATED
+2025-09-05 14:21:08,316 [INFO] Traffic event: 10.0.0.68 => BLOCKED
+2025-09-05 14:21:10,323 [INFO] Traffic event: 10.0.0.70 => MITIGATED
+2025-09-05 14:21:10,341 [INFO] Traffic event: 10.0.0.70 => BLOCKED
+2025-09-05 14:21:10,959 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:10] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:12,360 [INFO] Traffic event: 10.0.0.72 => MITIGATED
+2025-09-05 14:21:12,379 [INFO] Traffic event: 10.0.0.72 => BLOCKED
+2025-09-05 14:21:13,990 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:13] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:14,403 [INFO] Traffic event: 10.0.0.74 => THROUGH
+2025-09-05 14:21:14,450 [INFO] Traffic event: 10.0.0.74 => THROUGH
+2025-09-05 14:21:16,418 [INFO] Traffic event: 10.0.0.76 => THROUGH
+2025-09-05 14:21:16,466 [INFO] Traffic event: 10.0.0.76 => THROUGH
+2025-09-05 14:21:17,021 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:17] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:18,449 [INFO] Traffic event: 10.0.0.78 => THROUGH
+2025-09-05 14:21:18,481 [INFO] Traffic event: 10.0.0.78 => THROUGH
+2025-09-05 14:21:20,076 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:20] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:20,542 [INFO] Traffic event: 10.0.0.80 => MITIGATED
+2025-09-05 14:21:20,738 [INFO] Traffic event: 10.0.0.80 => BLOCKED
+2025-09-05 14:21:22,585 [INFO] Traffic event: 10.0.0.82 => THROUGH
+2025-09-05 14:21:22,753 [INFO] Traffic event: 10.0.0.82 => THROUGH
+2025-09-05 14:21:23,252 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:23] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:24,602 [INFO] Traffic event: 10.0.0.84 => MITIGATED
+2025-09-05 14:21:24,768 [INFO] Traffic event: 10.0.0.84 => THROUGH
+2025-09-05 14:21:26,286 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:26] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:26,631 [INFO] Traffic event: 10.0.0.86 => MITIGATED
+2025-09-05 14:21:26,786 [INFO] Traffic event: 10.0.0.86 => THROUGH
+2025-09-05 14:21:28,647 [INFO] Traffic event: 10.0.0.88 => THROUGH
+2025-09-05 14:21:28,801 [INFO] Traffic event: 10.0.0.88 => THROUGH
+2025-09-05 14:21:29,315 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:29] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:30,663 [INFO] Traffic event: 10.0.0.90 => BLOCKED
+2025-09-05 14:21:30,816 [INFO] Traffic event: 10.0.0.90 => BLOCKED
+2025-09-05 14:21:32,345 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:32] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:32,681 [INFO] Traffic event: 10.0.0.92 => THROUGH
+2025-09-05 14:21:32,830 [INFO] Traffic event: 10.0.0.92 => MITIGATED
+2025-09-05 14:21:34,712 [INFO] Traffic event: 10.0.0.94 => BLOCKED
+2025-09-05 14:21:34,844 [INFO] Traffic event: 10.0.0.94 => BLOCKED
+2025-09-05 14:21:35,372 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:35] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:36,729 [INFO] Traffic event: 10.0.0.96 => THROUGH
+2025-09-05 14:21:36,859 [INFO] Traffic event: 10.0.0.96 => BLOCKED
+2025-09-05 14:21:38,404 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:38] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:38,747 [INFO] Traffic event: 10.0.0.98 => THROUGH
+2025-09-05 14:21:38,873 [INFO] Traffic event: 10.0.0.98 => MITIGATED
+2025-09-05 14:21:40,762 [INFO] Traffic event: 10.0.0.100 => THROUGH
+2025-09-05 14:21:40,895 [INFO] Traffic event: 10.0.0.100 => THROUGH
+2025-09-05 14:21:41,438 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:41] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:42,779 [INFO] Traffic event: 10.0.0.102 => THROUGH
+2025-09-05 14:21:42,910 [INFO] Traffic event: 10.0.0.102 => THROUGH
+2025-09-05 14:21:44,471 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:44] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:44,843 [INFO] Traffic event: 10.0.0.104 => BLOCKED
+2025-09-05 14:21:44,924 [INFO] Traffic event: 10.0.0.104 => THROUGH
+2025-09-05 14:21:46,860 [INFO] Traffic event: 10.0.0.106 => THROUGH
+2025-09-05 14:21:46,938 [INFO] Traffic event: 10.0.0.106 => THROUGH
+2025-09-05 14:21:47,504 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:48,909 [INFO] Traffic event: 10.0.0.108 => THROUGH
+2025-09-05 14:21:48,955 [INFO] Traffic event: 10.0.0.108 => THROUGH
+2025-09-05 14:21:50,538 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:50] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:50,932 [INFO] Traffic event: 10.0.0.110 => BLOCKED
+2025-09-05 14:21:50,978 [INFO] Traffic event: 10.0.0.110 => MITIGATED
+2025-09-05 14:21:52,974 [INFO] Traffic event: 10.0.0.112 => MITIGATED
+2025-09-05 14:21:52,996 [INFO] Traffic event: 10.0.0.112 => BLOCKED
+2025-09-05 14:21:53,574 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:54,994 [INFO] Traffic event: 10.0.0.114 => THROUGH
+2025-09-05 14:21:55,033 [INFO] Traffic event: 10.0.0.114 => THROUGH
+2025-09-05 14:21:56,871 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:56] "GET / HTTP/1.1" 200 -
+2025-09-05 14:21:57,029 [INFO] Traffic event: 10.0.0.116 => BLOCKED
+2025-09-05 14:21:57,052 [INFO] Traffic event: 10.0.0.117 => THROUGH
+2025-09-05 14:21:59,060 [INFO] Traffic event: 10.0.0.119 => THROUGH
+2025-09-05 14:21:59,080 [INFO] Traffic event: 10.0.0.119 => THROUGH
+2025-09-05 14:21:59,900 [INFO] 127.0.0.1 - - [05/Sep/2025 14:21:59] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:01,075 [INFO] Traffic event: 10.0.0.121 => THROUGH
+2025-09-05 14:22:01,097 [INFO] Traffic event: 10.0.0.121 => THROUGH
+2025-09-05 14:22:03,062 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:03] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:03,109 [INFO] Traffic event: 10.0.0.123 => THROUGH
+2025-09-05 14:22:03,126 [INFO] Traffic event: 10.0.0.123 => THROUGH
+2025-09-05 14:22:05,124 [INFO] Traffic event: 10.0.0.125 => MITIGATED
+2025-09-05 14:22:05,143 [INFO] Traffic event: 10.0.0.125 => THROUGH
+2025-09-05 14:22:06,095 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:06] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:07,170 [INFO] Traffic event: 10.0.0.127 => THROUGH
+2025-09-05 14:22:07,197 [INFO] Traffic event: 10.0.0.127 => THROUGH
+2025-09-05 14:22:09,199 [INFO] Traffic event: 10.0.0.129 => BLOCKED
+2025-09-05 14:22:09,214 [INFO] Traffic event: 10.0.0.129 => THROUGH
+2025-09-05 14:22:09,381 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:09] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:11,215 [INFO] Traffic event: 10.0.0.131 => BLOCKED
+2025-09-05 14:22:11,231 [INFO] Traffic event: 10.0.0.131 => MITIGATED
+2025-09-05 14:22:12,411 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:12] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:13,250 [INFO] Traffic event: 10.0.0.133 => BLOCKED
+2025-09-05 14:22:13,271 [INFO] Traffic event: 10.0.0.133 => THROUGH
+2025-09-05 14:22:15,301 [INFO] Traffic event: 10.0.0.135 => THROUGH
+2025-09-05 14:22:15,324 [INFO] Traffic event: 10.0.0.135 => BLOCKED
+2025-09-05 14:22:15,441 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:15] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:17,343 [INFO] Traffic event: 10.0.0.137 => BLOCKED
+2025-09-05 14:22:17,360 [INFO] Traffic event: 10.0.0.137 => MITIGATED
+2025-09-05 14:22:18,470 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:18] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:19,371 [INFO] Traffic event: 10.0.0.139 => BLOCKED
+2025-09-05 14:22:19,385 [INFO] Traffic event: 10.0.0.139 => THROUGH
+2025-09-05 14:22:21,387 [INFO] Traffic event: 10.0.0.141 => MITIGATED
+2025-09-05 14:22:21,405 [INFO] Traffic event: 10.0.0.141 => BLOCKED
+2025-09-05 14:22:21,501 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:21] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:23,418 [INFO] Traffic event: 10.0.0.143 => MITIGATED
+2025-09-05 14:22:23,442 [INFO] Traffic event: 10.0.0.143 => THROUGH
+2025-09-05 14:22:24,534 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:25,448 [INFO] Traffic event: 10.0.0.145 => THROUGH
+2025-09-05 14:22:25,468 [INFO] Traffic event: 10.0.0.145 => THROUGH
+2025-09-05 14:22:27,476 [INFO] Traffic event: 10.0.0.147 => THROUGH
+2025-09-05 14:22:27,493 [INFO] Traffic event: 10.0.0.147 => THROUGH
+2025-09-05 14:22:27,761 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:27] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:29,514 [INFO] Traffic event: 10.0.0.149 => BLOCKED
+2025-09-05 14:22:29,529 [INFO] Traffic event: 10.0.0.149 => MITIGATED
+2025-09-05 14:22:30,817 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:30] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:31,559 [INFO] Traffic event: 10.0.0.151 => THROUGH
+2025-09-05 14:22:31,580 [INFO] Traffic event: 10.0.0.151 => THROUGH
+2025-09-05 14:22:33,588 [INFO] Traffic event: 10.0.0.153 => THROUGH
+2025-09-05 14:22:33,605 [INFO] Traffic event: 10.0.0.153 => BLOCKED
+2025-09-05 14:22:33,846 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:35,633 [INFO] Traffic event: 10.0.0.155 => THROUGH
+2025-09-05 14:22:35,656 [INFO] Traffic event: 10.0.0.155 => THROUGH
+2025-09-05 14:22:36,878 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:36] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:37,662 [INFO] Traffic event: 10.0.0.157 => THROUGH
+2025-09-05 14:22:37,682 [INFO] Traffic event: 10.0.0.157 => MITIGATED
+2025-09-05 14:22:39,690 [INFO] Traffic event: 10.0.0.159 => BLOCKED
+2025-09-05 14:22:39,708 [INFO] Traffic event: 10.0.0.159 => THROUGH
+2025-09-05 14:22:39,908 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:39] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:41,705 [INFO] Traffic event: 10.0.0.161 => MITIGATED
+2025-09-05 14:22:41,723 [INFO] Traffic event: 10.0.0.161 => MITIGATED
+2025-09-05 14:22:42,936 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:42] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:43,735 [INFO] Traffic event: 10.0.0.163 => BLOCKED
+2025-09-05 14:22:43,749 [INFO] Traffic event: 10.0.0.163 => BLOCKED
+2025-09-05 14:22:45,787 [INFO] Traffic event: 10.0.0.165 => THROUGH
+2025-09-05 14:22:45,802 [INFO] Traffic event: 10.0.0.165 => MITIGATED
+2025-09-05 14:22:45,968 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:47,817 [INFO] Traffic event: 10.0.0.167 => THROUGH
+2025-09-05 14:22:47,839 [INFO] Traffic event: 10.0.0.167 => THROUGH
+2025-09-05 14:22:48,998 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:48] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:49,845 [INFO] Traffic event: 10.0.0.169 => MITIGATED
+2025-09-05 14:22:49,868 [INFO] Traffic event: 10.0.0.169 => THROUGH
+2025-09-05 14:22:51,880 [INFO] Traffic event: 10.0.0.171 => BLOCKED
+2025-09-05 14:22:51,905 [INFO] Traffic event: 10.0.0.171 => THROUGH
+2025-09-05 14:22:52,028 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:52] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:53,909 [INFO] Traffic event: 10.0.0.173 => THROUGH
+2025-09-05 14:22:53,929 [INFO] Traffic event: 10.0.0.173 => THROUGH
+2025-09-05 14:22:55,061 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:55] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:55,939 [INFO] Traffic event: 10.0.0.175 => THROUGH
+2025-09-05 14:22:55,954 [INFO] Traffic event: 10.0.0.175 => MITIGATED
+2025-09-05 14:22:57,976 [INFO] Traffic event: 10.0.0.177 => THROUGH
+2025-09-05 14:22:57,993 [INFO] Traffic event: 10.0.0.177 => MITIGATED
+2025-09-05 14:22:58,089 [INFO] 127.0.0.1 - - [05/Sep/2025 14:22:58] "GET / HTTP/1.1" 200 -
+2025-09-05 14:22:59,990 [INFO] Traffic event: 10.0.0.179 => BLOCKED
+2025-09-05 14:23:00,010 [INFO] Traffic event: 10.0.0.179 => MITIGATED
+2025-09-05 14:23:01,123 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:01] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:02,030 [INFO] Traffic event: 10.0.0.181 => MITIGATED
+2025-09-05 14:23:02,047 [INFO] Traffic event: 10.0.0.182 => THROUGH
+2025-09-05 14:23:04,080 [INFO] Traffic event: 10.0.0.184 => THROUGH
+2025-09-05 14:23:04,099 [INFO] Traffic event: 10.0.0.184 => THROUGH
+2025-09-05 14:23:04,152 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:04] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:06,108 [INFO] Traffic event: 10.0.0.186 => THROUGH
+2025-09-05 14:23:06,133 [INFO] Traffic event: 10.0.0.186 => MITIGATED
+2025-09-05 14:23:07,185 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:07] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:08,161 [INFO] Traffic event: 10.0.0.188 => MITIGATED
+2025-09-05 14:23:08,184 [INFO] Traffic event: 10.0.0.188 => THROUGH
+2025-09-05 14:23:10,210 [INFO] Traffic event: 10.0.0.190 => THROUGH
+2025-09-05 14:23:10,219 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:10] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:10,246 [INFO] Traffic event: 10.0.0.190 => THROUGH
+2025-09-05 14:23:12,226 [INFO] Traffic event: 10.0.0.192 => BLOCKED
+2025-09-05 14:23:12,267 [INFO] Traffic event: 10.0.0.192 => THROUGH
+2025-09-05 14:23:13,254 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:13] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:14,240 [INFO] Traffic event: 10.0.0.194 => BLOCKED
+2025-09-05 14:23:14,283 [INFO] Traffic event: 10.0.0.194 => THROUGH
+2025-09-05 14:23:16,269 [INFO] Traffic event: 10.0.0.196 => THROUGH
+2025-09-05 14:23:16,287 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:16] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:16,316 [INFO] Traffic event: 10.0.0.196 => THROUGH
+2025-09-05 14:23:18,292 [INFO] Traffic event: 10.0.0.198 => THROUGH
+2025-09-05 14:23:18,332 [INFO] Traffic event: 10.0.0.198 => MITIGATED
+2025-09-05 14:23:19,321 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:19] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:20,340 [INFO] Traffic event: 10.0.0.200 => MITIGATED
+2025-09-05 14:23:20,357 [INFO] Traffic event: 10.0.0.200 => MITIGATED
+2025-09-05 14:23:22,364 [INFO] Traffic event: 10.0.0.202 => THROUGH
+2025-09-05 14:23:22,384 [INFO] Traffic event: 10.0.0.202 => THROUGH
+2025-09-05 14:23:22,388 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:22] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:24,393 [INFO] Traffic event: 10.0.0.204 => MITIGATED
+2025-09-05 14:23:24,409 [INFO] Traffic event: 10.0.0.204 => BLOCKED
+2025-09-05 14:23:25,419 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:25] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:26,419 [INFO] Traffic event: 10.0.0.206 => THROUGH
+2025-09-05 14:23:26,434 [INFO] Traffic event: 10.0.0.206 => MITIGATED
+2025-09-05 14:23:28,470 [INFO] Traffic event: 10.0.0.208 => BLOCKED
+2025-09-05 14:23:28,490 [INFO] Traffic event: 10.0.0.208 => THROUGH
+2025-09-05 14:23:28,496 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:28] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:30,485 [INFO] Traffic event: 10.0.0.210 => THROUGH
+2025-09-05 14:23:30,508 [INFO] Traffic event: 10.0.0.210 => THROUGH
+2025-09-05 14:23:31,525 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:31] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:32,502 [INFO] Traffic event: 10.0.0.212 => BLOCKED
+2025-09-05 14:23:32,523 [INFO] Traffic event: 10.0.0.212 => THROUGH
+2025-09-05 14:23:34,536 [INFO] Traffic event: 10.0.0.214 => THROUGH
+2025-09-05 14:23:34,566 [INFO] Traffic event: 10.0.0.214 => MITIGATED
+2025-09-05 14:23:34,572 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:34] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:36,581 [INFO] Traffic event: 10.0.0.216 => THROUGH
+2025-09-05 14:23:36,602 [INFO] Traffic event: 10.0.0.216 => THROUGH
+2025-09-05 14:23:37,606 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:37] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:38,615 [INFO] Traffic event: 10.0.0.218 => THROUGH
+2025-09-05 14:23:38,638 [INFO] Traffic event: 10.0.0.218 => THROUGH
+2025-09-05 14:23:40,652 [INFO] Traffic event: 10.0.0.220 => MITIGATED
+2025-09-05 14:23:40,656 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:40] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:40,682 [INFO] Traffic event: 10.0.0.220 => THROUGH
+2025-09-05 14:23:42,667 [INFO] Traffic event: 10.0.0.222 => THROUGH
+2025-09-05 14:23:42,700 [INFO] Traffic event: 10.0.0.222 => MITIGATED
+2025-09-05 14:23:43,710 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:43] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:44,697 [INFO] Traffic event: 10.0.0.224 => THROUGH
+2025-09-05 14:23:44,715 [INFO] Traffic event: 10.0.0.224 => THROUGH
+2025-09-05 14:23:46,725 [INFO] Traffic event: 10.0.0.226 => MITIGATED
+2025-09-05 14:23:46,743 [INFO] Traffic event: 10.0.0.226 => THROUGH
+2025-09-05 14:23:46,748 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:46] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:48,773 [INFO] Traffic event: 10.0.0.228 => MITIGATED
+2025-09-05 14:23:48,793 [INFO] Traffic event: 10.0.0.228 => MITIGATED
+2025-09-05 14:23:49,780 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:49] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:50,803 [INFO] Traffic event: 10.0.0.230 => BLOCKED
+2025-09-05 14:23:50,820 [INFO] Traffic event: 10.0.0.230 => THROUGH
+2025-09-05 14:23:52,855 [INFO] Traffic event: 10.0.0.232 => THROUGH
+2025-09-05 14:23:52,902 [INFO] Traffic event: 10.0.0.232 => MITIGATED
+2025-09-05 14:23:52,927 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:52] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:54,882 [INFO] Traffic event: 10.0.0.234 => THROUGH
+2025-09-05 14:23:54,918 [INFO] Traffic event: 10.0.0.234 => THROUGH
+2025-09-05 14:23:55,955 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:55] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:56,925 [INFO] Traffic event: 10.0.0.236 => THROUGH
+2025-09-05 14:23:56,947 [INFO] Traffic event: 10.0.0.236 => BLOCKED
+2025-09-05 14:23:58,979 [INFO] Traffic event: 10.0.0.238 => THROUGH
+2025-09-05 14:23:58,987 [INFO] 127.0.0.1 - - [05/Sep/2025 14:23:58] "GET / HTTP/1.1" 200 -
+2025-09-05 14:23:59,011 [INFO] Traffic event: 10.0.0.238 => MITIGATED
+2025-09-05 14:24:00,993 [INFO] Traffic event: 10.0.0.240 => THROUGH
+2025-09-05 14:24:01,029 [INFO] Traffic event: 10.0.0.241 => THROUGH
+2025-09-05 14:24:02,020 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:02] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:03,008 [INFO] Traffic event: 10.0.0.242 => MITIGATED
+2025-09-05 14:24:03,046 [INFO] Traffic event: 10.0.0.243 => BLOCKED
+2025-09-05 14:24:05,050 [INFO] Traffic event: 10.0.0.245 => MITIGATED
+2025-09-05 14:24:05,066 [INFO] Traffic event: 10.0.0.245 => MITIGATED
+2025-09-05 14:24:05,075 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:05] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:07,080 [INFO] Traffic event: 10.0.0.247 => MITIGATED
+2025-09-05 14:24:07,103 [INFO] Traffic event: 10.0.0.247 => THROUGH
+2025-09-05 14:24:08,104 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:08] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:09,107 [INFO] Traffic event: 10.0.0.249 => THROUGH
+2025-09-05 14:24:09,126 [INFO] Traffic event: 10.0.0.249 => THROUGH
+2025-09-05 14:24:11,135 [INFO] Traffic event: 10.0.0.251 => THROUGH
+2025-09-05 14:24:11,152 [INFO] Traffic event: 10.0.0.251 => THROUGH
+2025-09-05 14:24:11,155 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:11] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:13,171 [INFO] Traffic event: 10.0.0.253 => THROUGH
+2025-09-05 14:24:13,191 [INFO] Traffic event: 10.0.0.253 => THROUGH
+2025-09-05 14:24:14,183 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:14] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:15,201 [INFO] Traffic event: 10.0.0.0 => BLOCKED
+2025-09-05 14:24:15,217 [INFO] Traffic event: 10.0.0.0 => THROUGH
+2025-09-05 14:24:17,255 [INFO] Traffic event: 10.0.0.2 => BLOCKED
+2025-09-05 14:24:17,286 [INFO] Traffic event: 10.0.0.2 => MITIGATED
+2025-09-05 14:24:17,296 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:17] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:19,285 [INFO] Traffic event: 10.0.0.4 => BLOCKED
+2025-09-05 14:24:19,301 [INFO] Traffic event: 10.0.0.4 => BLOCKED
+2025-09-05 14:24:20,334 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:20] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:21,313 [INFO] Traffic event: 10.0.0.6 => BLOCKED
+2025-09-05 14:24:21,338 [INFO] Traffic event: 10.0.0.6 => MITIGATED
+2025-09-05 14:24:23,342 [INFO] Traffic event: 10.0.0.8 => BLOCKED
+2025-09-05 14:24:23,358 [INFO] Traffic event: 10.0.0.8 => THROUGH
+2025-09-05 14:24:23,375 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:23] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:25,383 [INFO] Traffic event: 10.0.0.10 => THROUGH
+2025-09-05 14:24:25,399 [INFO] Traffic event: 10.0.0.10 => BLOCKED
+2025-09-05 14:24:26,417 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:26] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:27,416 [INFO] Traffic event: 10.0.0.12 => THROUGH
+2025-09-05 14:24:27,436 [INFO] Traffic event: 10.0.0.12 => BLOCKED
+2025-09-05 14:24:29,435 [INFO] Traffic event: 10.0.0.14 => MITIGATED
+2025-09-05 14:24:29,450 [INFO] Traffic event: 10.0.0.14 => BLOCKED
+2025-09-05 14:24:29,668 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:29] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:31,465 [INFO] Traffic event: 10.0.0.16 => THROUGH
+2025-09-05 14:24:31,488 [INFO] Traffic event: 10.0.0.16 => THROUGH
+2025-09-05 14:24:32,708 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:32] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:33,499 [INFO] Traffic event: 10.0.0.18 => THROUGH
+2025-09-05 14:24:33,527 [INFO] Traffic event: 10.0.0.18 => THROUGH
+2025-09-05 14:24:35,527 [INFO] Traffic event: 10.0.0.20 => THROUGH
+2025-09-05 14:24:35,542 [INFO] Traffic event: 10.0.0.20 => THROUGH
+2025-09-05 14:24:35,737 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:35] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:37,555 [INFO] Traffic event: 10.0.0.22 => MITIGATED
+2025-09-05 14:24:37,570 [INFO] Traffic event: 10.0.0.22 => MITIGATED
+2025-09-05 14:24:38,769 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:38] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:39,585 [INFO] Traffic event: 10.0.0.24 => THROUGH
+2025-09-05 14:24:39,607 [INFO] Traffic event: 10.0.0.24 => MITIGATED
+2025-09-05 14:24:41,618 [INFO] Traffic event: 10.0.0.26 => THROUGH
+2025-09-05 14:24:41,644 [INFO] Traffic event: 10.0.0.26 => THROUGH
+2025-09-05 14:24:41,803 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:41] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:43,645 [INFO] Traffic event: 10.0.0.28 => MITIGATED
+2025-09-05 14:24:43,660 [INFO] Traffic event: 10.0.0.28 => THROUGH
+2025-09-05 14:24:44,832 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:44] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:45,675 [INFO] Traffic event: 10.0.0.30 => THROUGH
+2025-09-05 14:24:45,696 [INFO] Traffic event: 10.0.0.30 => MITIGATED
+2025-09-05 14:24:47,690 [INFO] Traffic event: 10.0.0.32 => THROUGH
+2025-09-05 14:24:47,712 [INFO] Traffic event: 10.0.0.32 => MITIGATED
+2025-09-05 14:24:47,860 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:49,718 [INFO] Traffic event: 10.0.0.34 => MITIGATED
+2025-09-05 14:24:49,736 [INFO] Traffic event: 10.0.0.34 => MITIGATED
+2025-09-05 14:24:50,891 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:50] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:51,749 [INFO] Traffic event: 10.0.0.36 => THROUGH
+2025-09-05 14:24:51,772 [INFO] Traffic event: 10.0.0.36 => THROUGH
+2025-09-05 14:24:53,775 [INFO] Traffic event: 10.0.0.38 => MITIGATED
+2025-09-05 14:24:53,792 [INFO] Traffic event: 10.0.0.38 => MITIGATED
+2025-09-05 14:24:53,921 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:55,804 [INFO] Traffic event: 10.0.0.40 => THROUGH
+2025-09-05 14:24:55,829 [INFO] Traffic event: 10.0.0.40 => THROUGH
+2025-09-05 14:24:56,953 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:56] "GET / HTTP/1.1" 200 -
+2025-09-05 14:24:57,821 [INFO] Traffic event: 10.0.0.42 => MITIGATED
+2025-09-05 14:24:57,845 [INFO] Traffic event: 10.0.0.42 => THROUGH
+2025-09-05 14:24:59,861 [INFO] Traffic event: 10.0.0.44 => THROUGH
+2025-09-05 14:24:59,882 [INFO] Traffic event: 10.0.0.44 => THROUGH
+2025-09-05 14:24:59,986 [INFO] 127.0.0.1 - - [05/Sep/2025 14:24:59] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:01,884 [INFO] Traffic event: 10.0.0.46 => THROUGH
+2025-09-05 14:25:01,910 [INFO] Traffic event: 10.0.0.46 => MITIGATED
+2025-09-05 14:25:03,018 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:03] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:03,901 [INFO] Traffic event: 10.0.0.48 => THROUGH
+2025-09-05 14:25:03,926 [INFO] Traffic event: 10.0.0.48 => THROUGH
+2025-09-05 14:25:05,931 [INFO] Traffic event: 10.0.0.50 => THROUGH
+2025-09-05 14:25:05,950 [INFO] Traffic event: 10.0.0.50 => THROUGH
+2025-09-05 14:25:06,045 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:06] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:07,960 [INFO] Traffic event: 10.0.0.52 => MITIGATED
+2025-09-05 14:25:07,975 [INFO] Traffic event: 10.0.0.52 => MITIGATED
+2025-09-05 14:25:09,073 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:09] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:09,977 [INFO] Traffic event: 10.0.0.54 => BLOCKED
+2025-09-05 14:25:09,991 [INFO] Traffic event: 10.0.0.54 => THROUGH
+2025-09-05 14:25:12,005 [INFO] Traffic event: 10.0.0.56 => BLOCKED
+2025-09-05 14:25:12,031 [INFO] Traffic event: 10.0.0.56 => THROUGH
+2025-09-05 14:25:12,103 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:12] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:14,020 [INFO] Traffic event: 10.0.0.59 => MITIGATED
+2025-09-05 14:25:14,047 [INFO] Traffic event: 10.0.0.59 => THROUGH
+2025-09-05 14:25:15,130 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:15] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:16,048 [INFO] Traffic event: 10.0.0.61 => THROUGH
+2025-09-05 14:25:16,064 [INFO] Traffic event: 10.0.0.61 => THROUGH
+2025-09-05 14:25:18,085 [INFO] Traffic event: 10.0.0.63 => THROUGH
+2025-09-05 14:25:18,102 [INFO] Traffic event: 10.0.0.63 => BLOCKED
+2025-09-05 14:25:18,160 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:18] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:20,100 [INFO] Traffic event: 10.0.0.65 => THROUGH
+2025-09-05 14:25:20,117 [INFO] Traffic event: 10.0.0.65 => THROUGH
+2025-09-05 14:25:21,189 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:21] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:22,129 [INFO] Traffic event: 10.0.0.67 => BLOCKED
+2025-09-05 14:25:22,148 [INFO] Traffic event: 10.0.0.67 => MITIGATED
+2025-09-05 14:25:24,149 [INFO] Traffic event: 10.0.0.69 => THROUGH
+2025-09-05 14:25:24,165 [INFO] Traffic event: 10.0.0.69 => MITIGATED
+2025-09-05 14:25:24,216 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:24] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:26,181 [INFO] Traffic event: 10.0.0.71 => THROUGH
+2025-09-05 14:25:26,212 [INFO] Traffic event: 10.0.0.71 => BLOCKED
+2025-09-05 14:25:27,249 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:27] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:28,208 [INFO] Traffic event: 10.0.0.73 => MITIGATED
+2025-09-05 14:25:28,229 [INFO] Traffic event: 10.0.0.73 => BLOCKED
+2025-09-05 14:25:30,229 [INFO] Traffic event: 10.0.0.75 => MITIGATED
+2025-09-05 14:25:30,245 [INFO] Traffic event: 10.0.0.75 => THROUGH
+2025-09-05 14:25:30,279 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:30] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:32,243 [INFO] Traffic event: 10.0.0.77 => BLOCKED
+2025-09-05 14:25:32,261 [INFO] Traffic event: 10.0.0.77 => THROUGH
+2025-09-05 14:25:33,319 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:34,259 [INFO] Traffic event: 10.0.0.79 => THROUGH
+2025-09-05 14:25:34,277 [INFO] Traffic event: 10.0.0.79 => THROUGH
+2025-09-05 14:25:36,274 [INFO] Traffic event: 10.0.0.81 => MITIGATED
+2025-09-05 14:25:36,293 [INFO] Traffic event: 10.0.0.81 => THROUGH
+2025-09-05 14:25:36,350 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:36] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:38,290 [INFO] Traffic event: 10.0.0.83 => THROUGH
+2025-09-05 14:25:38,309 [INFO] Traffic event: 10.0.0.83 => THROUGH
+2025-09-05 14:25:39,382 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:39] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:40,307 [INFO] Traffic event: 10.0.0.85 => THROUGH
+2025-09-05 14:25:40,326 [INFO] Traffic event: 10.0.0.85 => THROUGH
+2025-09-05 14:25:42,321 [INFO] Traffic event: 10.0.0.87 => THROUGH
+2025-09-05 14:25:42,343 [INFO] Traffic event: 10.0.0.87 => THROUGH
+2025-09-05 14:25:42,417 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:42] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:44,338 [INFO] Traffic event: 10.0.0.89 => BLOCKED
+2025-09-05 14:25:44,358 [INFO] Traffic event: 10.0.0.89 => BLOCKED
+2025-09-05 14:25:45,442 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:46,368 [INFO] Traffic event: 10.0.0.91 => BLOCKED
+2025-09-05 14:25:46,385 [INFO] Traffic event: 10.0.0.91 => THROUGH
+2025-09-05 14:25:48,397 [INFO] Traffic event: 10.0.0.93 => MITIGATED
+2025-09-05 14:25:48,420 [INFO] Traffic event: 10.0.0.93 => THROUGH
+2025-09-05 14:25:48,470 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:48] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:50,415 [INFO] Traffic event: 10.0.0.95 => MITIGATED
+2025-09-05 14:25:50,439 [INFO] Traffic event: 10.0.0.95 => THROUGH
+2025-09-05 14:25:51,504 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:51] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:52,457 [INFO] Traffic event: 10.0.0.97 => BLOCKED
+2025-09-05 14:25:52,478 [INFO] Traffic event: 10.0.0.97 => MITIGATED
+2025-09-05 14:25:54,486 [INFO] Traffic event: 10.0.0.99 => MITIGATED
+2025-09-05 14:25:54,506 [INFO] Traffic event: 10.0.0.99 => MITIGATED
+2025-09-05 14:25:54,587 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:54] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:56,502 [INFO] Traffic event: 10.0.0.101 => MITIGATED
+2025-09-05 14:25:56,522 [INFO] Traffic event: 10.0.0.101 => MITIGATED
+2025-09-05 14:25:57,618 [INFO] 127.0.0.1 - - [05/Sep/2025 14:25:57] "GET / HTTP/1.1" 200 -
+2025-09-05 14:25:58,531 [INFO] Traffic event: 10.0.0.103 => THROUGH
+2025-09-05 14:25:58,548 [INFO] Traffic event: 10.0.0.103 => THROUGH
+2025-09-05 14:26:00,565 [INFO] Traffic event: 10.0.0.105 => MITIGATED
+2025-09-05 14:26:00,588 [INFO] Traffic event: 10.0.0.105 => BLOCKED
+2025-09-05 14:26:00,658 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:00] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:02,594 [INFO] Traffic event: 10.0.0.107 => THROUGH
+2025-09-05 14:26:02,614 [INFO] Traffic event: 10.0.0.107 => THROUGH
+2025-09-05 14:26:03,702 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:03] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:04,613 [INFO] Traffic event: 10.0.0.109 => MITIGATED
+2025-09-05 14:26:04,632 [INFO] Traffic event: 10.0.0.109 => THROUGH
+2025-09-05 14:26:06,647 [INFO] Traffic event: 10.0.0.111 => MITIGATED
+2025-09-05 14:26:06,669 [INFO] Traffic event: 10.0.0.111 => BLOCKED
+2025-09-05 14:26:06,731 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:06] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:08,663 [INFO] Traffic event: 10.0.0.113 => THROUGH
+2025-09-05 14:26:08,685 [INFO] Traffic event: 10.0.0.113 => MITIGATED
+2025-09-05 14:26:09,762 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:09] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:10,691 [INFO] Traffic event: 10.0.0.115 => THROUGH
+2025-09-05 14:26:10,714 [INFO] Traffic event: 10.0.0.115 => THROUGH
+2025-09-05 14:26:12,706 [INFO] Traffic event: 10.0.0.117 => MITIGATED
+2025-09-05 14:26:12,734 [INFO] Traffic event: 10.0.0.117 => MITIGATED
+2025-09-05 14:26:12,808 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:12] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:14,737 [INFO] Traffic event: 10.0.0.119 => THROUGH
+2025-09-05 14:26:14,753 [INFO] Traffic event: 10.0.0.119 => THROUGH
+2025-09-05 14:26:15,840 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:15] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:16,761 [INFO] Traffic event: 10.0.0.121 => MITIGATED
+2025-09-05 14:26:16,780 [INFO] Traffic event: 10.0.0.121 => BLOCKED
+2025-09-05 14:26:18,795 [INFO] Traffic event: 10.0.0.123 => THROUGH
+2025-09-05 14:26:18,820 [INFO] Traffic event: 10.0.0.123 => BLOCKED
+2025-09-05 14:26:18,899 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:18] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:20,810 [INFO] Traffic event: 10.0.0.125 => THROUGH
+2025-09-05 14:26:20,836 [INFO] Traffic event: 10.0.0.125 => MITIGATED
+2025-09-05 14:26:21,931 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:21] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:22,827 [INFO] Traffic event: 10.0.0.127 => MITIGATED
+2025-09-05 14:26:22,853 [INFO] Traffic event: 10.0.0.127 => THROUGH
+2025-09-05 14:26:24,855 [INFO] Traffic event: 10.0.0.129 => BLOCKED
+2025-09-05 14:26:24,869 [INFO] Traffic event: 10.0.0.129 => THROUGH
+2025-09-05 14:26:25,303 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:25] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:26,884 [INFO] Traffic event: 10.0.0.131 => BLOCKED
+2025-09-05 14:26:26,908 [INFO] Traffic event: 10.0.0.131 => MITIGATED
+2025-09-05 14:26:28,336 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:28] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:28,930 [INFO] Traffic event: 10.0.0.133 => THROUGH
+2025-09-05 14:26:28,947 [INFO] Traffic event: 10.0.0.133 => THROUGH
+2025-09-05 14:26:30,961 [INFO] Traffic event: 10.0.0.135 => THROUGH
+2025-09-05 14:26:30,986 [INFO] Traffic event: 10.0.0.135 => THROUGH
+2025-09-05 14:26:31,723 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:31] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:32,987 [INFO] Traffic event: 10.0.0.137 => THROUGH
+2025-09-05 14:26:33,004 [INFO] Traffic event: 10.0.0.137 => THROUGH
+2025-09-05 14:26:34,758 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:34] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:35,023 [INFO] Traffic event: 10.0.0.139 => MITIGATED
+2025-09-05 14:26:35,044 [INFO] Traffic event: 10.0.0.140 => THROUGH
+2025-09-05 14:26:37,037 [INFO] Traffic event: 10.0.0.142 => MITIGATED
+2025-09-05 14:26:37,060 [INFO] Traffic event: 10.0.0.142 => THROUGH
+2025-09-05 14:26:38,032 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:38] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:39,078 [INFO] Traffic event: 10.0.0.144 => MITIGATED
+2025-09-05 14:26:39,097 [INFO] Traffic event: 10.0.0.144 => MITIGATED
+2025-09-05 14:26:41,072 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:41] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:41,112 [INFO] Traffic event: 10.0.0.146 => MITIGATED
+2025-09-05 14:26:41,177 [INFO] Traffic event: 10.0.0.146 => MITIGATED
+2025-09-05 14:26:43,165 [INFO] Traffic event: 10.0.0.148 => MITIGATED
+2025-09-05 14:26:43,198 [INFO] Traffic event: 10.0.0.148 => THROUGH
+2025-09-05 14:26:44,128 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:44] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:45,186 [INFO] Traffic event: 10.0.0.150 => BLOCKED
+2025-09-05 14:26:45,217 [INFO] Traffic event: 10.0.0.150 => THROUGH
+2025-09-05 14:26:47,165 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:47] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:47,242 [INFO] Traffic event: 10.0.0.152 => BLOCKED
+2025-09-05 14:26:47,272 [INFO] Traffic event: 10.0.0.152 => THROUGH
+2025-09-05 14:26:49,266 [INFO] Traffic event: 10.0.0.154 => THROUGH
+2025-09-05 14:26:49,289 [INFO] Traffic event: 10.0.0.154 => MITIGATED
+2025-09-05 14:26:50,250 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:50] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:51,291 [INFO] Traffic event: 10.0.0.156 => MITIGATED
+2025-09-05 14:26:51,342 [INFO] Traffic event: 10.0.0.156 => THROUGH
+2025-09-05 14:26:53,308 [INFO] Traffic event: 10.0.0.158 => MITIGATED
+2025-09-05 14:26:53,314 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:53] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:53,364 [INFO] Traffic event: 10.0.0.158 => THROUGH
+2025-09-05 14:26:55,324 [INFO] Traffic event: 10.0.0.160 => THROUGH
+2025-09-05 14:26:55,380 [INFO] Traffic event: 10.0.0.160 => MITIGATED
+2025-09-05 14:26:56,351 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:56] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:57,354 [INFO] Traffic event: 10.0.0.162 => THROUGH
+2025-09-05 14:26:57,397 [INFO] Traffic event: 10.0.0.162 => THROUGH
+2025-09-05 14:26:59,383 [INFO] Traffic event: 10.0.0.164 => THROUGH
+2025-09-05 14:26:59,398 [INFO] 127.0.0.1 - - [05/Sep/2025 14:26:59] "GET / HTTP/1.1" 200 -
+2025-09-05 14:26:59,427 [INFO] Traffic event: 10.0.0.164 => THROUGH
+2025-09-05 14:27:01,417 [INFO] Traffic event: 10.0.0.166 => MITIGATED
+2025-09-05 14:27:01,444 [INFO] Traffic event: 10.0.0.166 => THROUGH
+2025-09-05 14:27:02,437 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:02] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:03,446 [INFO] Traffic event: 10.0.0.168 => BLOCKED
+2025-09-05 14:27:03,462 [INFO] Traffic event: 10.0.0.168 => THROUGH
+2025-09-05 14:27:05,476 [INFO] Traffic event: 10.0.0.170 => MITIGATED
+2025-09-05 14:27:05,486 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:05] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:05,515 [INFO] Traffic event: 10.0.0.170 => THROUGH
+2025-09-05 14:27:07,505 [INFO] Traffic event: 10.0.0.172 => BLOCKED
+2025-09-05 14:27:07,531 [INFO] Traffic event: 10.0.0.172 => BLOCKED
+2025-09-05 14:27:08,537 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:08] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:09,534 [INFO] Traffic event: 10.0.0.174 => BLOCKED
+2025-09-05 14:27:09,549 [INFO] Traffic event: 10.0.0.174 => MITIGATED
+2025-09-05 14:27:11,564 [INFO] Traffic event: 10.0.0.176 => BLOCKED
+2025-09-05 14:27:11,588 [INFO] Traffic event: 10.0.0.176 => THROUGH
+2025-09-05 14:27:11,598 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:11] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:13,578 [INFO] Traffic event: 10.0.0.178 => BLOCKED
+2025-09-05 14:27:13,605 [INFO] Traffic event: 10.0.0.178 => MITIGATED
+2025-09-05 14:27:14,732 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:14] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:15,607 [INFO] Traffic event: 10.0.0.180 => THROUGH
+2025-09-05 14:27:15,627 [INFO] Traffic event: 10.0.0.180 => THROUGH
+2025-09-05 14:27:17,653 [INFO] Traffic event: 10.0.0.182 => BLOCKED
+2025-09-05 14:27:17,686 [INFO] Traffic event: 10.0.0.182 => THROUGH
+2025-09-05 14:27:17,806 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:17] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:19,672 [INFO] Traffic event: 10.0.0.184 => THROUGH
+2025-09-05 14:27:19,703 [INFO] Traffic event: 10.0.0.184 => THROUGH
+2025-09-05 14:27:20,838 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:20] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:21,701 [INFO] Traffic event: 10.0.0.186 => MITIGATED
+2025-09-05 14:27:21,720 [INFO] Traffic event: 10.0.0.186 => MITIGATED
+2025-09-05 14:27:23,716 [INFO] Traffic event: 10.0.0.188 => THROUGH
+2025-09-05 14:27:23,736 [INFO] Traffic event: 10.0.0.188 => THROUGH
+2025-09-05 14:27:23,871 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:23] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:25,745 [INFO] Traffic event: 10.0.0.190 => MITIGATED
+2025-09-05 14:27:25,763 [INFO] Traffic event: 10.0.0.190 => MITIGATED
+2025-09-05 14:27:26,942 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:26] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:27,761 [INFO] Traffic event: 10.0.0.192 => THROUGH
+2025-09-05 14:27:27,779 [INFO] Traffic event: 10.0.0.192 => THROUGH
+2025-09-05 14:27:29,780 [INFO] Traffic event: 10.0.0.194 => THROUGH
+2025-09-05 14:27:29,797 [INFO] Traffic event: 10.0.0.194 => BLOCKED
+2025-09-05 14:27:29,989 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:29] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:31,795 [INFO] Traffic event: 10.0.0.196 => THROUGH
+2025-09-05 14:27:31,812 [INFO] Traffic event: 10.0.0.196 => THROUGH
+2025-09-05 14:27:33,027 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:33] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:33,811 [INFO] Traffic event: 10.0.0.198 => MITIGATED
+2025-09-05 14:27:33,827 [INFO] Traffic event: 10.0.0.198 => BLOCKED
+2025-09-05 14:27:35,824 [INFO] Traffic event: 10.0.0.200 => MITIGATED
+2025-09-05 14:27:35,843 [INFO] Traffic event: 10.0.0.200 => MITIGATED
+2025-09-05 14:27:36,063 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:36] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:37,873 [INFO] Traffic event: 10.0.0.202 => MITIGATED
+2025-09-05 14:27:37,913 [INFO] Traffic event: 10.0.0.202 => THROUGH
+2025-09-05 14:27:39,103 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:39] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:39,889 [INFO] Traffic event: 10.0.0.204 => THROUGH
+2025-09-05 14:27:39,929 [INFO] Traffic event: 10.0.0.204 => BLOCKED
+2025-09-05 14:27:41,930 [INFO] Traffic event: 10.0.0.206 => THROUGH
+2025-09-05 14:27:41,956 [INFO] Traffic event: 10.0.0.206 => MITIGATED
+2025-09-05 14:27:42,136 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:42] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:43,963 [INFO] Traffic event: 10.0.0.208 => THROUGH
+2025-09-05 14:27:43,981 [INFO] Traffic event: 10.0.0.208 => THROUGH
+2025-09-05 14:27:45,166 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:45] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:45,992 [INFO] Traffic event: 10.0.0.210 => THROUGH
+2025-09-05 14:27:46,017 [INFO] Traffic event: 10.0.0.210 => BLOCKED
+2025-09-05 14:27:48,011 [INFO] Traffic event: 10.0.0.212 => THROUGH
+2025-09-05 14:27:48,033 [INFO] Traffic event: 10.0.0.213 => BLOCKED
+2025-09-05 14:27:48,195 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:48] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:50,040 [INFO] Traffic event: 10.0.0.215 => MITIGATED
+2025-09-05 14:27:50,059 [INFO] Traffic event: 10.0.0.215 => BLOCKED
+2025-09-05 14:27:51,231 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:51] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:52,074 [INFO] Traffic event: 10.0.0.217 => THROUGH
+2025-09-05 14:27:52,101 [INFO] Traffic event: 10.0.0.217 => BLOCKED
+2025-09-05 14:27:54,090 [INFO] Traffic event: 10.0.0.219 => THROUGH
+2025-09-05 14:27:54,119 [INFO] Traffic event: 10.0.0.219 => MITIGATED
+2025-09-05 14:27:54,609 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:54] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:56,118 [INFO] Traffic event: 10.0.0.221 => THROUGH
+2025-09-05 14:27:56,137 [INFO] Traffic event: 10.0.0.221 => MITIGATED
+2025-09-05 14:27:57,647 [INFO] 127.0.0.1 - - [05/Sep/2025 14:27:57] "GET / HTTP/1.1" 200 -
+2025-09-05 14:27:58,146 [INFO] Traffic event: 10.0.0.223 => MITIGATED
+2025-09-05 14:27:58,188 [INFO] Traffic event: 10.0.0.223 => BLOCKED
+2025-09-05 14:28:00,183 [INFO] Traffic event: 10.0.0.225 => THROUGH
+2025-09-05 14:28:00,206 [INFO] Traffic event: 10.0.0.225 => THROUGH
+2025-09-05 14:28:00,688 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:00] "GET / HTTP/1.1" 200 -
+2025-09-05 14:28:02,241 [INFO] Traffic event: 10.0.0.227 => THROUGH
+2025-09-05 14:28:02,266 [INFO] Traffic event: 10.0.0.227 => THROUGH
+2025-09-05 14:28:03,733 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:03] "GET / HTTP/1.1" 200 -
+2025-09-05 14:28:04,289 [INFO] Traffic event: 10.0.0.229 => BLOCKED
+2025-09-05 14:28:04,323 [INFO] Traffic event: 10.0.0.229 => BLOCKED
+2025-09-05 14:28:05,265 [ERROR] Blocked IP 203.0.113.230
+2025-09-05 14:28:06,322 [INFO] Traffic event: 10.0.0.231 => MITIGATED
+2025-09-05 14:28:06,392 [INFO] Traffic event: 10.0.0.231 => MITIGATED
+2025-09-05 14:28:08,368 [INFO] Traffic event: 10.0.0.233 => THROUGH
+2025-09-05 14:28:08,418 [INFO] Traffic event: 10.0.0.233 => THROUGH
+2025-09-05 14:28:09,677 [INFO] Email alert sent.
+2025-09-05 14:28:09,678 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:09] "[32mGET /block_demo HTTP/1.1[0m" 302 -
+2025-09-05 14:28:09,688 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:09] "GET / HTTP/1.1" 200 -
+2025-09-05 14:28:10,399 [INFO] Traffic event: 10.0.0.235 => MITIGATED
+2025-09-05 14:28:10,478 [INFO] Traffic event: 10.0.0.235 => MITIGATED
+2025-09-05 14:28:12,441 [INFO] Traffic event: 10.0.0.237 => MITIGATED
+2025-09-05 14:28:12,497 [INFO] Traffic event: 10.0.0.237 => MITIGATED
+2025-09-05 14:28:12,810 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:12] "GET / HTTP/1.1" 200 -
+2025-09-05 14:28:14,473 [INFO] Traffic event: 10.0.0.239 => MITIGATED
+2025-09-05 14:28:14,516 [INFO] Traffic event: 10.0.0.239 => THROUGH
+2025-09-05 14:28:15,975 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:15] "GET / HTTP/1.1" 200 -
+2025-09-05 14:28:16,557 [INFO] Traffic event: 10.0.0.241 => BLOCKED
+2025-09-05 14:28:16,575 [INFO] Traffic event: 10.0.0.241 => MITIGATED
+2025-09-05 14:28:18,581 [INFO] Traffic event: 10.0.0.243 => BLOCKED
+2025-09-05 14:28:18,602 [INFO] Traffic event: 10.0.0.243 => THROUGH
+2025-09-05 14:28:19,018 [INFO] 127.0.0.1 - - [05/Sep/2025 14:28:19] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,327 @@
+2025-09-05 12:56:43,840 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-09-05 12:56:43,841 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 12:56:43,842 [INFO]  * Restarting with stat
+2025-09-05 12:56:44,269 [WARNING]  * Debugger is active!
+2025-09-05 12:56:44,270 [INFO]  * Debugger PIN: 139-863-190
+2025-09-05 12:58:05,762 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-09-05 12:58:05,762 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 12:58:05,763 [INFO]  * Restarting with stat
+2025-09-05 12:58:06,064 [WARNING]  * Debugger is active!
+2025-09-05 12:58:06,064 [INFO]  * Debugger PIN: 139-863-190
+2025-09-05 12:59:21,794 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-09-05 12:59:21,796 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-05 12:59:21,797 [INFO]  * Restarting with stat
+2025-09-05 12:59:22,226 [WARNING]  * Debugger is active!
+2025-09-05 12:59:22,227 [INFO]  * Debugger PIN: 139-863-190
+2025-09-05 12:59:27,365 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:27] "GET / HTTP/1.1" 200 -
+2025-09-05 12:59:27,480 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:27] "GET /static/style.css HTTP/1.1" 200 -
+2025-09-05 12:59:29,781 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:29] "GET / HTTP/1.1" 200 -
+2025-09-05 12:59:29,899 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 12:59:32,097 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:32] "GET / HTTP/1.1" 200 -
+2025-09-05 12:59:32,219 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 12:59:34,255 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:34] "GET / HTTP/1.1" 200 -
+2025-09-05 12:59:34,321 [INFO] 127.0.0.1 - - [05/Sep/2025 12:59:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 12:59:36,398 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:39,863 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:40,111 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:40,265 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:40,505 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:40,571 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:40,805 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:41,025 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:41,977 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:43,952 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:44,002 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:45,136 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:45,180 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:45,498 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:45,572 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:45,732 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:45,765 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:45,935 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:45,956 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:46,083 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:46,116 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:47,819 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:47,863 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:48,063 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:48,110 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:49,265 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:49,299 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:50,543 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:50,586 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:50,775 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:50,813 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:50,959 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:50,991 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:51,181 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:51,251 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:52,626 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:52,659 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:52,942 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:52,989 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:54,141 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:54,179 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:54,462 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:54,505 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:54,612 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:54,657 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:55,884 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:55,930 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:56,318 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:56,359 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:56,407 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:56,435 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:56,621 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:56,655 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:58,058 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:58,099 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:58,305 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:58,392 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:59,747 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:59,795 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 12:59:59,816 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 12:59:59,839 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:00,151 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:00,188 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:01,513 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:01,537 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:01,662 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:01,684 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:01,905 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:01,950 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:02,152 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:02,177 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:03,828 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:03,877 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:03,986 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:04,009 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:05,382 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:05,415 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:05,577 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:05,632 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:05,772 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:05,813 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:07,188 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:07,254 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:07,348 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:07,383 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:07,640 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:07,725 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:07,908 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:07,943 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:09,358 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:09,393 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:09,671 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:09,706 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:10,470 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:10,517 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:11,035 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:11,095 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:11,662 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:11,699 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:12,398 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:12,435 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:12,945 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:12,986 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:13,151 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:13,185 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:13,748 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:13,786 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:14,746 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:14,826 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:15,189 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:15,226 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:15,671 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:15,710 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:16,228 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:16,258 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:17,577 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:17,595 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:18,437 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:18,521 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:18,975 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:18,994 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:19,127 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:19,153 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:19,558 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:19,621 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:20,472 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:20,501 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:20,965 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:21,009 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:21,382 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:21,403 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:22,524 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:22,546 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:23,681 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:23,700 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:24,631 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:24,647 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:25,046 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:25,101 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:25,277 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:25,309 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:25,990 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:26,020 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:26,794 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:26,827 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:27,361 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:27,414 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:27,992 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:28,013 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:28,548 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:28,588 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:28,950 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:28,984 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:29,714 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:29,764 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:30,319 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:30,372 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:30,914 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:30,951 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:31,758 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:31,822 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:32,251 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:32,277 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:32,566 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:32,603 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:33,847 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:33,881 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:34,131 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:34,189 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:34,357 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:34,422 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:35,643 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:35,668 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:35,847 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:35,901 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:36,079 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:36,133 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:37,516 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:37,570 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:37,788 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:37,810 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:37,949 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:37,986 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:39,300 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:39,354 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:39,576 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:39,618 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:39,850 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:39,891 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:41,175 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:41,231 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:41,435 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:41,481 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:41,642 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:41,663 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:43,176 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:43,230 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:43,414 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:43,461 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:43,772 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:43,817 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:45,043 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:45,083 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:45,362 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:45,408 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:46,883 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:46,934 [INFO] 198.51.100.123 | /login | AI-DETECT | 92 hits in last 60s
+2025-09-05 13:00:47,121 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:47,155 [INFO] 198.51.100.123 | /login | AI-DETECT | 93 hits in last 60s
+2025-09-05 13:00:47,373 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:47,411 [INFO] 198.51.100.123 | /login | AI-DETECT | 94 hits in last 60s
+2025-09-05 13:00:48,968 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:49,016 [INFO] 198.51.100.123 | /login | AI-DETECT | 93 hits in last 60s
+2025-09-05 13:00:49,256 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:49,290 [INFO] 198.51.100.123 | /login | AI-DETECT | 94 hits in last 60s
+2025-09-05 13:00:49,407 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:49,448 [INFO] 198.51.100.123 | /login | AI-DETECT | 94 hits in last 60s
+2025-09-05 13:00:50,804 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:50,838 [INFO] 198.51.100.123 | /login | ATTACK | simulated brute-force attempt
+2025-09-05 13:00:51,254 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:51,270 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:51,315 [INFO] 198.51.100.123 | /login | AI-DETECT | 92 hits in last 60s
+2025-09-05 13:00:51,339 [INFO] 198.51.100.123 | /login | AI-DETECT | 93 hits in last 60s
+2025-09-05 13:00:52,730 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:52,732 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:52] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:52,977 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:52,978 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:52] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:53,299 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:53,299 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:53] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:54,659 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:54,659 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:54] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:55,012 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:55,012 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:55] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:55,163 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:55,163 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:55] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:56,695 [INFO] Email sent: [SecureGuard] ATTACK - 198.51.100.123
+2025-09-05 13:00:56,795 [INFO] 198.51.100.123 | /login | AI-DETECT | 85 hits in last 60s
+2025-09-05 13:00:56,930 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:56,932 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:56] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:57,125 [INFO] Email sent: [SecureGuard] AI-DETECT - 198.51.100.123
+2025-09-05 13:00:57,125 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:57] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:57,143 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:57] "GET / HTTP/1.1" 200 -
+2025-09-05 13:00:57,252 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:00:58,649 [ERROR] Email send failed: Connection unexpectedly closed
+2025-09-05 13:00:58,650 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:58] "[32mGET /simulate_attack HTTP/1.1[0m" 302 -
+2025-09-05 13:00:59,297 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:59] "GET / HTTP/1.1" 200 -
+2025-09-05 13:00:59,404 [INFO] 127.0.0.1 - - [05/Sep/2025 13:00:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:01,456 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:01] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:01,534 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:03,602 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:03] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:03,663 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:05,757 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:05] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:05,851 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:07,914 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:07] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:07,981 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:10,067 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:10] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:10,138 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:12,295 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:12] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:12,376 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:14,431 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:14] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:14,510 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:16,552 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:16] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:16,625 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:18,667 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:18] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:18,724 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:20,781 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:20] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:20,852 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:22,888 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:22] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:22,940 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:25,018 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:25] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:25,066 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:27,111 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:27] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:27,188 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:29,283 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:29] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:29,334 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:31,378 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:31] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:31,427 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:33,484 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:33] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:33,526 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:35,576 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:35] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:35,676 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:37,738 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:37] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:37,779 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:39,862 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:39] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:39,929 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:41,973 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:41] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:42,039 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:44,086 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:44] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:44,137 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:46,185 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:46] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:46,242 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:48,286 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:48] "GET / HTTP/1.1" 200 -
+2025-09-05 13:01:48,335 [INFO] 127.0.0.1 - - [05/Sep/2025 13:01:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-05 13:01:49,042 [INFO]  * Detected change in '/home/gaurav/secureguard/secureguard/app.py', reloading
+2025-09-05 13:01:49,133 [INFO]  * Restarting with stat

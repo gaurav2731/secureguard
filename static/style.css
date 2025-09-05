@@ -1,0 +1,82 @@
+/* SecureGuard Dashboard Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #e6eef8;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4da3ff;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #0f1724;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #1b2a3a;
+}
+
+th {
+  background: #1b2435;
+  color: #9ccaff;
+}
+
+tr:hover {
+  background: #1a2333;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+  background: #3a4d6b;
+  color: white;
+}
+
+.btn:hover {
+  background: #4d6b9f;
+}
+
+.btn-red {
+  background: #db2626;
+}
+
+.btn-red:hover {
+  background: #ff4040;
+}
+
+.btn-green {
+  background: #2fb35a;
+}
+
+.btn-green:hover {
+  background: #3fdc6a;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #1b2435;
+  color: white;
+  margin-right: 6px;
+}
