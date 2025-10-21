@@ -5,6 +5,110 @@ body {
   background: #0b1220;
   color: #e6eef8;
   margin: 20px;
+  line-height: 1.6;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #1b2435;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+  width: calc(attr(data-progress) * 1%);
+}
+
+.progress-normal {
+  background: linear-gradient(90deg, #2fb35a, #4da3ff);
+}
+
+.progress-full {
+  background: linear-gradient(90deg, #ff4444, #ff8c42);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.error-alert {
+  background: #ff4444;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.error-alert p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  background: #0f1724;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+  margin-top: 0;
+  color: #4da3ff;
+  border-bottom: 2px solid #1b2435;
+  padding-bottom: 10px;
+}
+
+.protection-status .status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  background: #1b2435;
+  border-radius: 6px;
+}
+
+.protection-status .component {
+  font-weight: bold;
+}
+
+.protection-status .status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.protection-status .status.active {
+  background: #2fb35a;
+  color: white;
+}
+
+.protection-status .status.error {
+  background: #ff4444;
+  color: white;
 }
 
 h1 {

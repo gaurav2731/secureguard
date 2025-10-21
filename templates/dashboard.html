@@ -1,53 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SecureGuard Dashboard</title>
+    <title>SecureGuard Advanced Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <h1>🔐 SecureGuard AI Firewall</h1>
+        {% if error %}
+        <div class="error-alert">
+            <p>⚠️ System Error: {{ error }}</p>
+        </div>
+        {% endif %}
 
-    <div class="card">
-        <h2>Controls</h2>
-        <form method="POST" action="/block">
-            <input type="text" name="ip" placeholder="Enter IP to block">
-            <button class="btn btn-red" type="submit">Block IP</button>
-        </form>
-        <form method="POST" action="/unblock">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>System Status</h3>
+                <p>Packet Count: <span id="packetCount">{{ packet_count }}</span></p>
+                <p>Capacity: <span id="maxPackets">{{ max_packets }}</span></p>
+                <div class="progress-bar">
+                    {% set packet_count_num = packet_count|float|default(0) %}
+                    {% set max_packets_num = max_packets|float|default(1) %}
+                    {% set progress = (packet_count_num / max_packets_num * 100) if max_packets_num > 0 else 0 %}
+                    {% set formatted_progress = '%.1f'|format(progress|float|default(0)) %}
+                    <div class="progress progress-{{ 'full' if packet_count_num >= max_packets_num else 'normal' }}" 
+                         data-progress="{{ formatted_progress }}"
+                         title="Packet usage: {{ formatted_progress }}%"></div>
+            </div>
+            <div class="stat-card">
+                <h3>Security Overview</h3>
+                <p>Total Blocked IPs: <span id="blockedCount">{{ blocked_count }}</span></p>
+                <p>Recent Blocks: <span id="recentBlocks">{{ recent_blocks|length }}</span></p>
+            </div>
+            <div class="stat-card protection-status">
+                <h3>Protection Status</h3>
+                {% for component, status in protection_status.items() %}
+                <div class="status-item">
+                    <span class="component">{{ component }}:</span>
+                    <span class="status {{ 'active' if status == 'Active' or status == 'Connected' else 'error' }}">
+                        {{ status }}
+                    </span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="data-section">
+            <h2>Recent Blocked IPs</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>IP Address</th>
+                            <th>Block Count</th>
+                            <th>Last Seen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ip, count, last_seen in recent_blocks|default([]) %}
+                        <tr>
+                            <td>{{ ip|default('Unknown') }}</td>
+                            <td>{{ count|default(0) }}</td>
+                            <td>{{ last_seen|default('Never')|datetime }}</td>
+                        </tr>
+                        {% else %}
+                        <tr><td colspan="3">No blocked IPs</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="trafficChart"></canvas>
+        </div>
+        <form method="POST" action="/unblock" class="unblock-form">
             <input type="text" name="ip" placeholder="Enter IP to unblock">
-            <button class="btn btn-green" type="submit">Unblock IP</button>
+            <button type="submit" class="btn">Unblock IP</button>
         </form>
-        <a href="/shutdown"><button class="btn btn-red">🚨 Emergency Shutdown</button></a>
-        <a href="/simulate_attack"><button class="btn">⚔️ Simulate Attack</button></a>
-    </div>
 
-    <div class="card">
-        <h2>Blocked IPs</h2>
-        <ul>
-            {% for ip in blocked %}
-                <li>{{ ip }}</li>
-            {% else %}
-                <li>No blocked IPs</li>
-            {% endfor %}
-        </ul>
-    </div>
+        <div class="card">
+            <h2>Recent Events</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>IP</th>
+                        <th>Path</th>
+                        <th>Type</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for e in events|default([]) %}
+                    <tr>
+                        <td>{{ e[0]|default('')|datetime }}</td>
+                        <td>{{ e[1]|default('Unknown') }}</td>
+                        <td>{{ e[2]|default('') }}</td>
+                        <td>{{ e[3]|default('Unknown') }}</td>
+                        <td>{{ e[4]|default('No details') }}</td>
+                    </tr>
+                    {% else %}
+                    <tr><td colspan="5">No events logged</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
 
-    <div class="card">
-        <h2>Recent Events</h2>
-        <table>
-            <tr><th>Time</th><th>IP</th><th>Path</th><th>Type</th><th>Detail</th></tr>
-            {% for e in events %}
-                <tr>
-                    <td>{{ e[0] }}</td>
-                    <td>{{ e[1] }}</td>
-                    <td>{{ e[2] }}</td>
-                    <td>{{ e[3] }}</td>
-                    <td>{{ e[4] }}</td>
-                </tr>
-            {% else %}
-                <tr><td colspan="5">No events logged</td></tr>
-            {% endfor %}
-        </table>
-    </div>
-</body>
+        <script>
+            // Auto-refresh
+            function refreshData() {
+                fetch('/stats')
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('packetCount').textContent = data.packet_count;
+                        document.getElementById('blockedCount').textContent = data.blocked_count;
+                        updateChart(data.traffic_data);
+                        
+                        // Update progress bar
+                        const progress = ((data.packet_count || 0) / (data.max_packets || 1) * 100) || 0;
+                        const progressBar = document.querySelector('.progress');
+                        if (progressBar) {
+                            const formattedProgress = progress.toFixed(1);
+                            progressBar.dataset.progress = formattedProgress;
+                            progressBar.className = 'progress ' + (progress >= 100 ? 'progress-full' : 'progress-normal');
+                            progressBar.title = `Packet usage: ${formattedProgress}%`;
+                        }
+                    })
+                    .catch(error => console.error('Refresh error:', error));
+            }
+
+            // Initialize chart
+            const ctx = document.getElementById('trafficChart').getContext('2d');
+            const trafficChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Packet Traffic',
+                        data: [],
+                        borderColor: 'rgb(75, 192, 192)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            function updateChart(data) {
+                trafficChart.data.labels = data.labels;
+                trafficChart.data.datasets[0].data = data.values;
+                trafficChart.update();
+            }
+
+            // Refresh every 5 seconds
+            setInterval(refreshData, 5000);
+            
+            // Initial load
+            refreshData();
+        </script>
+    </body>
 </html>
