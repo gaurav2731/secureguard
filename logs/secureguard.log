@@ -7542,3 +7542,421 @@
 2025-10-21 19:38:25,578 - waitress - INFO - Serving on http://127.0.0.1:5000
 2025-10-21 19:41:58,384 - redis_init - WARNING - Redis connection failed: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.. Using in-memory counters.
 2025-10-21 19:41:58,393 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 20:39:30,484 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 20:39:30,485 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 20:39:30,493 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 20:39:35,060 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 20:39:35,065 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 20:39:35,997 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:39:35] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:39:36,375 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:39:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 20:48:20,956 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gaura\\OneDrive\\Desktop\\SECUREGUARD.PY\\secureguard\\routes.py', reloading
+2025-10-21 20:48:21,092 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 20:48:25,900 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 20:48:25,904 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 20:52:38,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 20:52:38,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 20:52:38,822 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 20:52:43,304 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 20:52:43,308 - werkzeug - INFO -  * Debugger PIN: 106-726-723
+2025-10-21 20:52:44,019 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:52:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:52:46,796 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:52:46] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:52:47,416 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:52:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:52:47,633 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:52:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:06,222 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 20:58:06,223 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 20:58:06,225 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 20:58:10,704 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 20:58:10,709 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 20:58:11,915 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:12,133 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 20:58:13,972 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:14,665 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:14,874 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:14] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:15,189 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:15,357 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:15,574 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:15] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:46,496 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 20:58:46,497 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 20:58:46,498 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 20:58:50,952 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 20:58:50,955 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 20:58:59,274 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:58:59,391 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:58:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 20:59:01,026 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:59:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:59:01,169 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:59:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:59:01,313 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:59:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:59:01,444 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:59:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 20:59:01,582 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 20:59:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:01:00,098 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 21:01:00,099 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 21:01:00,102 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 21:01:04,865 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 21:01:04,871 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 21:01:16,719 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:01:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:01:16,977 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:01:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 21:01:18,846 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:01:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:01:19,012 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:01:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:01:19,203 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:01:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:03:53,335 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 21:03:53,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 21:03:53,336 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 21:03:57,801 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 21:03:57,806 - werkzeug - INFO -  * Debugger PIN: 669-821-163
+2025-10-21 21:04:17,820 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:04:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:04:18,038 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:04:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 21:04:20,308 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:04:20] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:04:20,729 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:04:20] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:04:20,912 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:04:20] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:06:14,098 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 21:06:14,099 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 21:06:14,100 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 21:06:18,550 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 21:06:18,554 - werkzeug - INFO -  * Debugger PIN: 106-726-723
+2025-10-21 21:06:18,576 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:06:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 21:06:18,688 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:06:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 21:09:14,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-21 21:09:14,384 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 21:09:14,386 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 21:09:18,832 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 21:09:18,836 - werkzeug - INFO -  * Debugger PIN: 106-726-723
+2025-10-21 21:09:18,854 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 21:09:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 22:23:43,179 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:23:43,274 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:27:09,251 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:27:50,237 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:27:50,630 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:27:50,632 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:27:50,636 - secureguard - INFO - Redis connection successful
+2025-10-21 22:27:54,872 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:27:54,873 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:27:55,145 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:27:55,155 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:33:19,193 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:33:19,274 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:33:19,277 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:33:19,280 - secureguard - INFO - Redis connection successful
+2025-10-21 22:33:22,895 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:33:22,897 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:33:23,029 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:33:23,035 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:35:25,297 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:35:25,300 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:35:25,304 - secureguard - INFO - Redis connection successful
+2025-10-21 22:35:25,379 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:35:29,236 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:35:29,238 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:35:29,376 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:35:29,381 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:39:33,861 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:39:33,933 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:39:33,936 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:39:33,939 - secureguard - INFO - Redis connection successful
+2025-10-21 22:39:37,685 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:39:37,686 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:39:37,811 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:39:37,816 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:42:32,826 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:42:32,829 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:42:32,832 - secureguard - INFO - Redis connection successful
+2025-10-21 22:42:34,326 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:42:37,049 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:42:37,051 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:42:37,176 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:42:37,181 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:45:40,562 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:45:40,565 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:45:40,570 - secureguard - INFO - Redis connection successful
+2025-10-21 22:45:40,648 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:45:44,099 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:45:44,101 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:45:44,224 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:45:44,230 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 22:55:03,205 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:55:03,208 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:55:03,211 - secureguard - INFO - Redis connection successful
+2025-10-21 22:55:03,451 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:55:07,091 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 22:55:07,093 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 22:55:07,342 - secureguard - INFO - Starting server with Waitress on http://localhost:5000
+2025-10-21 22:55:07,348 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-21 23:02:23,459 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:23,844 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:23,847 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:02:23,850 - secureguard - INFO - Redis connection successful
+2025-10-21 23:02:28,831 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:28,832 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:02:28,833 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-21 23:02:29,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-21 23:02:29,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 23:02:29,036 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 23:02:33,863 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:34,356 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:34,360 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:02:34,364 - secureguard - INFO - Redis connection successful
+2025-10-21 23:02:37,862 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:02:37,863 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:02:37,864 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-21 23:02:37,886 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 23:02:37,891 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-21 23:02:40,672 - secureguard - ERROR - SQL Injection Attempt detected from 192.168.31.16
+2025-10-21 23:02:41,730 - secureguard - ERROR - Failed to block IP at system level: Command 'netsh advfirewall firewall add rule name="SECUREGUARD_BLOCK_192_168_31_16" dir=in action=block remoteip=192.168.31.16' returned non-zero exit status 1.
+2025-10-21 23:02:41,731 - secureguard - WARNING - Blocked IP 192.168.31.16 for 86400 seconds
+2025-10-21 23:02:41,734 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-10-21 23:02:41,737 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:41,915 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:41,915 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:41,917 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:41,935 - secureguard - ERROR - Failed to block IP at system level: Command 'netsh advfirewall firewall add rule name="SECUREGUARD_BLOCK_192_168_31_16" dir=in action=block remoteip=192.168.31.16' returned non-zero exit status 1.
+2025-10-21 23:02:44,095 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,095 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,096 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:44,151 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,151 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,152 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:44,658 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,659 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,660 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:44,710 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,710 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,711 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:44,828 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,828 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,829 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:44,882 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:44,882 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:44,883 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,003 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,004 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,005 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,064 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,065 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,065 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,159 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,159 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,160 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,213 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,214 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,215 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,305 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,305 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,306 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,355 - secureguard - WARNING - Blocked request from banned IP: 192.168.31.16
+2025-10-21 23:02:45,356 - secureguard - ERROR - Firewall error processing request from 192.168.31.16: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-10-21 23:02:45,357 - werkzeug - INFO - 192.168.31.16 - - [21/Oct/2025 23:02:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-10-21 23:02:45,560 - secureguard - ERROR - Email failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29246fdc9cfsm115118495ad.45 - gsmtp')
+2025-10-21 23:04:38,662 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:38,759 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:38,774 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:04:38,778 - secureguard - INFO - Redis connection successful
+2025-10-21 23:04:43,159 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:43,160 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:04:43,161 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-21 23:04:43,190 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-21 23:04:43,191 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-21 23:04:43,193 - werkzeug - INFO -  * Restarting with stat
+2025-10-21 23:04:48,068 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:48,071 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:04:48,074 - secureguard - INFO - Redis connection successful
+2025-10-21 23:04:50,137 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:52,040 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-21 23:04:52,041 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-21 23:04:52,042 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-21 23:04:52,068 - werkzeug - WARNING -  * Debugger is active!
+2025-10-21 23:04:52,074 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-21 23:04:52,097 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 23:04:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-21 23:04:52,246 - werkzeug - INFO - 127.0.0.1 - - [21/Oct/2025 23:04:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-21 23:04:59,234 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gaura\\OneDrive\\Desktop\\SECUREGUARD.PY\\secureguard\\test.py', reloading
+2025-10-21 23:04:59,391 - werkzeug - INFO -  * Restarting with stat
+2025-10-22 00:00:54,000 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 00:00:54,003 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:00:54,005 - secureguard - INFO - Redis connection successful
+2025-10-22 00:00:54,215 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 00:02:22,761 - secureguard - INFO - Redis connection successful
+2025-10-22 00:02:22,762 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:02:22,762 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:02:22,818 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-22 00:02:22,819 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 00:02:22,822 - werkzeug - INFO -  * Restarting with stat
+2025-10-22 00:02:23,423 - secureguard - INFO - Redis connection successful
+2025-10-22 00:02:23,424 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:02:23,425 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:02:23,441 - werkzeug - WARNING -  * Debugger is active!
+2025-10-22 00:02:23,446 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-22 00:02:33,891 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:34,122 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 00:02:36,436 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:36,594 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:36,746 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:36,988 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:37,117 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:37] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:02:38,098 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:02:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-22 00:04:12,558 - secureguard - INFO - Redis connection successful
+2025-10-22 00:04:12,559 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:04:12,559 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:04:12,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-22 00:04:12,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 00:04:12,612 - werkzeug - INFO -  * Restarting with stat
+2025-10-22 00:04:13,382 - secureguard - INFO - Redis connection successful
+2025-10-22 00:04:13,382 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:04:13,383 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:04:13,407 - werkzeug - WARNING -  * Debugger is active!
+2025-10-22 00:04:13,412 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-22 00:07:53,689 - secureguard - INFO - Redis connection successful
+2025-10-22 00:07:53,690 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:07:53,690 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:07:53,738 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-22 00:07:53,739 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 00:07:53,743 - werkzeug - INFO -  * Restarting with stat
+2025-10-22 00:07:54,547 - secureguard - INFO - Redis connection successful
+2025-10-22 00:07:54,547 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:07:54,548 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:07:54,570 - werkzeug - WARNING -  * Debugger is active!
+2025-10-22 00:07:54,577 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-22 00:08:02,859 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:02] "GET / HTTP/1.1" 200 -
+2025-10-22 00:08:03,527 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-10-22 00:08:03,637 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:03] "GET /stats HTTP/1.1" 200 -
+2025-10-22 00:08:03,685 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-22 00:08:08,639 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:08] "GET /stats HTTP/1.1" 200 -
+2025-10-22 00:08:14,188 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 00:08:14] "GET /stats HTTP/1.1" 200 -
+2025-10-22 00:11:45,518 - secureguard - INFO - Redis connection successful
+2025-10-22 00:11:45,519 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:11:45,520 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:11:45,559 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.16:5000
+2025-10-22 00:11:45,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 00:11:45,564 - werkzeug - INFO -  * Restarting with stat
+2025-10-22 00:11:46,339 - secureguard - INFO - Redis connection successful
+2025-10-22 00:11:46,339 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 00:11:46,340 - secureguard - INFO - Starting Flask development server on http://localhost:5000
+2025-10-22 00:11:46,363 - werkzeug - WARNING -  * Debugger is active!
+2025-10-22 00:11:46,368 - werkzeug - INFO -  * Debugger PIN: 466-487-496
+2025-10-22 00:12:44,439 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-22 07:17:58,087 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-22 07:28:31,761 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-22 07:29:55,575 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-10-22 07:50:07,661 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:50:07,725 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:50:07,735 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 07:50:07,883 - secureguard - INFO - Redis connection successful
+2025-10-22 07:50:11,898 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:50:11,899 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 07:50:11,906 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 07:53:01,458 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:53:01,595 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:53:01,598 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 07:53:01,601 - secureguard - INFO - Redis connection successful
+2025-10-22 07:53:05,189 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 07:53:05,191 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 07:53:05,195 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 08:35:44,008 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:35:44,074 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:35:44,077 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:35:44,081 - secureguard - INFO - Redis connection successful
+2025-10-22 08:35:47,338 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:35:47,339 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:36:35,976 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:36:35,980 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:36:35,983 - secureguard - INFO - Redis connection successful
+2025-10-22 08:36:36,127 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:36:39,146 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:36:39,148 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:36:39,155 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 08:40:57,831 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:40:57,834 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:40:57,895 - secureguard - INFO - Redis connection successful
+2025-10-22 08:40:57,899 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:41:01,266 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 08:41:01,268 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 08:41:01,273 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 18:59:21,970 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 18:59:22,032 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 18:59:22,108 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 18:59:22,114 - secureguard - INFO - Redis connection successful
+2025-10-22 18:59:24,984 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 18:59:24,986 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 18:59:24,992 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:25:28,058 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:25:28,100 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:25:28,101 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:25:28,104 - secureguard - INFO - Redis connection successful
+2025-10-22 19:25:30,834 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:25:30,836 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:25:30,840 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:26:46,581 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:26:46,584 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:26:46,587 - secureguard - INFO - Redis connection successful
+2025-10-22 19:26:47,858 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:26:49,311 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:26:49,312 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:26:49,316 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:28:46,603 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:28:46,652 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:28:46,655 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:28:46,657 - secureguard - INFO - Redis connection successful
+2025-10-22 19:29:06,159 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:29:06,358 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:29:06,360 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:29:06,362 - secureguard - INFO - Redis connection successful
+2025-10-22 19:29:09,433 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:29:09,434 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:29:09,437 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:30:36,750 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:30:36,798 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:30:36,801 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:30:36,803 - secureguard - INFO - Redis connection successful
+2025-10-22 19:30:39,727 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:30:39,729 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:30:39,733 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:35:46,767 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:35:46,770 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:35:46,773 - secureguard - INFO - Redis connection successful
+2025-10-22 19:35:46,891 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:35:49,611 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:35:49,612 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:35:49,616 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:37:41,845 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:37:41,847 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:37:41,850 - secureguard - INFO - Redis connection successful
+2025-10-22 19:37:41,945 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:37:44,889 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:37:44,890 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:37:44,894 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:42:02,184 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:42:02,186 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:42:02,232 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:42:02,233 - secureguard - INFO - Redis connection successful
+2025-10-22 19:42:05,283 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:42:05,284 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:42:05,288 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-22 19:43:20,430 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:43:20,509 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:43:20,511 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:43:20,514 - secureguard - INFO - Redis connection successful
+2025-10-22 19:43:23,728 - secureguard - INFO - Updated threat intelligence successfully
+2025-10-22 19:43:23,729 - secureguard - INFO - SecureGuard Firewall initialized with real-time protection
+2025-10-22 19:43:23,733 - waitress - INFO - Serving on http://0.0.0.0:5000

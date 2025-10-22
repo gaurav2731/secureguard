@@ -1,13 +1,12 @@
 """
 SecureGuard route handlers
 """
-from flask import render_template, jsonify, request, redirect, url_for
-from app import app, redis_conn
+from flask import render_template, jsonify, request
+from app import app
+from redis_connection import redis_conn
 
 @app.route('/')
 def home():
-    return "Hello, SecureGuard!"
-
     """Dashboard route"""
     try:
         packet_count = redis_conn.get_packet_count()

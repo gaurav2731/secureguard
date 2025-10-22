@@ -186,4 +186,6 @@ DASHBOARD_HTML = """
 
 # -------- Run --------
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    import os
+    if os.environ.get('SECUREGUARD_DEV', '0') == '1':
+        app.run(host="0.0.0.0", port=5000, debug=True)

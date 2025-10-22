@@ -74,5 +74,15 @@ class RedisConnection:
         self.fallback_data['blocked_ips'].add(ip)
         return True
 
+    def set(self, key, value):
+        """Set a key-value pair in Redis"""
+        if self.client:
+            try:
+                return self.client.set(key, value)
+            except RedisError:
+                pass
+        self.fallback_data[key] = value
+        return True
+
 # Create global instance
 redis_conn = RedisConnection()

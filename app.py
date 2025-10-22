@@ -17,17 +17,16 @@ import queue
 from flask import Flask, render_template, request, jsonify, abort, url_for, redirect
 import smtplib
 
-# Import our Redis connection manager
+# Import our Redis connection 
+import redis
 from redis_connection import redis_conn, RedisError
 
 app = Flask(__name__)
 
-# Initialize template filters
-from filters import init_filters
-init_filters(app)
-
-# Import routes to register them (must be after app is created)
-import routes
+# Configure basic Flask settings
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['FLASK_ENV'] = 'development'
+app.config['DEBUG'] = True
 
 # Configure logging
 if not os.path.exists('logs'):
@@ -41,9 +40,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger('secureguard')
-
-# Initialize Flask app
-app = Flask(__name__)
 
 # Use redis_conn from redis_connection module
 
@@ -711,10 +707,13 @@ def monitor_system_resources():
             logger.error(f"Error monitoring system resources: {e}")
             time.sleep(60)
 
-# --------------------
-# Run
-# --------------------
-if __name__ == "__main__":
+def start_services():
+    """Start background workers and initialize services.
+
+    This function is safe to call when the module is imported. It does NOT
+    start the Flask development server; that is left to the runner (server.py)
+    or to a developer running the module directly.
+    """
     # Start background tasks
     threading.Thread(target=update_threat_intelligence_loop, daemon=True).start()
     threading.Thread(target=monitor_system_resources, daemon=True).start()
@@ -726,6 +725,7 @@ if __name__ == "__main__":
     # Initialize threat intelligence
     ThreatIntelligence.update_threat_intelligence()
 
+    # Initialize firewall and services
     firewall = Firewall()
     logger.info("SecureGuard Firewall initialized with real-time protection")
 
@@ -739,18 +739,15 @@ if __name__ == "__main__":
         logger.warning(f"Redis connection failed, falling back to in-memory counters: {e}")
         redis_client = None
 
-    # Initialize threat intelligence
+    # Initialize threat intelligence again (ensure caches filled)
     ThreatIntelligence.update_threat_intelligence()
     logger.info("SecureGuard Firewall initialized with real-time protection")
 
-    # Run with production WSGI server
-    try:
-        from waitress import serve
-        logger.info("Starting server with Waitress on http://localhost:5000")
-        serve(app, host='127.0.0.1', port=5000, threads=8, connection_limit=2048)
-    except ImportError:
-        logger.warning("Waitress not available, falling back to Flask development server")
-        app.run(debug=False, host='127.0.0.1', port=5000)
-    except Exception as e:
-        logger.error(f"Server startup failed: {e}")
-        raise
+
+# Preserve backward compatible behavior for developers who run app.py directly.
+# Use the SECUREGUARD_DEV env var to explicitly enable the built-in Flask dev server.
+if __name__ == "__main__":
+    start_services()
+    if os.environ.get('SECUREGUARD_DEV', '0') == '1':
+        logger.info("Starting Flask development server on http://localhost:5000")
+        app.run(debug=True, host='0.0.0.0', port=5000)
