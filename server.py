@@ -5,6 +5,19 @@ import os
 import sys
 from waitress import serve
 from app import app
+# Initialize filters and routes (wsgi.py does this for WSGI deployments)
+try:
+    from filters import init_filters
+    init_filters(app)
+except Exception:
+    # If filters are missing or fail, continue; app will still start
+    pass
+
+# Import routes to ensure endpoints are registered
+try:
+    import routes  # registers routes on the app
+except Exception:
+    pass
 
 # Set up minimal config to get the server running
 app.config.update(

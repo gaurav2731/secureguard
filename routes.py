@@ -5,7 +5,9 @@ from flask import render_template, jsonify, request, redirect, url_for
 from app import app, redis_conn
 
 @app.route('/')
-def index():
+def home():
+    return "Hello, SecureGuard!"
+
     """Dashboard route"""
     try:
         packet_count = redis_conn.get_packet_count()
