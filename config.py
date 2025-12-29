@@ -4,7 +4,7 @@ SecureGuard Configuration
 
 # Website Configuration
 PROTECTED_WEBSITE = {
-    'ip': '0.0.0.0',  # Replace with your website's IP
+    'ip': '175.176.186.102',  # Replace with your website's IP
     'port': 80,       # Default HTTP port
     'ssl_port': 443   # Default HTTPS port
 }

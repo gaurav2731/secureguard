@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SecureGuard Enhanced Firewall{% endblock %}</title>
+
+    <!-- Futuristic CSS Framework -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/futuristic.css') }}">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Monaco Editor for code editing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.44.0/min/vs/loader.min.js"></script>
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="futuristic-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-shield-alt"></i>
+                <span>SecureGuard</span>
+            </div>
+
+            <div class="nav-menu">
+                <a href="{{ url_for('dashboard') }}" class="nav-link {% if active_page == 'dashboard' %}active{% endif %}">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+
+                <a href="{{ url_for('control_panel') }}" class="nav-link {% if active_page == 'control' %}active{% endif %}">
+                    <i class="fas fa-cogs"></i>
+                    <span>Control</span>
+                </a>
+
+                <a href="{{ url_for('analytics') }}" class="nav-link {% if active_page == 'analytics' %}active{% endif %}">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Analytics</span>
+                </a>
+
+                <a href="{{ url_for('file_manager') }}" class="nav-link {% if active_page == 'files' %}active{% endif %}">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Files</span>
+                </a>
+
+                <a href="{{ url_for('threat_intelligence') }}" class="nav-link {% if active_page == 'threats' %}active{% endif %}">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Threats</span>
+                </a>
+
+                <a href="{{ url_for('system_monitor') }}" class="nav-link {% if active_page == 'system' %}active{% endif %}">
+                    <i class="fas fa-server"></i>
+                    <span>System</span>
+                </a>
+
+                <a href="{{ url_for('config_manager') }}" class="nav-link {% if active_page == 'config' %}active{% endif %}">
+                    <i class="fas fa-wrench"></i>
+                    <span>Config</span>
+                </a>
+
+                <a href="{{ url_for('api_tester') }}" class="nav-link {% if active_page == 'api-test' %}active{% endif %}">
+                    <i class="fas fa-code"></i>
+                    <span>API Test</span>
+                </a>
+            </div>
+
+            <div class="nav-status">
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="futuristic-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <span>SecureGuard Enhanced Firewall</span>
+                <span>•</span>
+                <span>Real-time Protection Active</span>
+            </div>
+            <div class="footer-time">
+                <span id="current-time"></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Global JavaScript -->
+    <script src="{{ url_for('static', filename='js/realtime.js') }}"></script>
+
+    {% block scripts %}{% endblock %}
+
+    <script>
+        // Update current time
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('current-time').textContent =
+                now.toLocaleString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                });
+        }
+
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Add loading animations
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

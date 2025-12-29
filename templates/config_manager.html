@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1><i class="fas fa-cogs"></i> Configuration Manager</h1>
+        <p class="subtitle">Manage and edit configuration files</p>
+    </div>
+
+    {% if error %}
+    <div class="alert alert-error">
+        <i class="fas fa-exclamation-triangle"></i>
+        <strong>Error:</strong> {{ error }}
+    </div>
+    {% endif %}
+
+    <div class="config-grid">
+        {% for config_file in config_files %}
+        <div class="config-card">
+            <div class="config-header">
+                <h3><i class="fas fa-file-code"></i> {{ config_file.name }}</h3>
+                <span class="config-type">{{ config_file.type|upper }}</span>
+            </div>
+            <div class="config-details">
+                <div class="config-info">
+                    <span class="config-label">Path:</span>
+                    <span class="config-value">{{ config_file.path }}</span>
+                </div>
+                <div class="config-info">
+                    <span class="config-label">Size:</span>
+                    <span class="config-value">{{ config_file.size }} bytes</span>
+                </div>
+                <div class="config-info">
+                    <span class="config-label">Modified:</span>
+                    <span class="config-value">{{ config_file.modified|strftime('%Y-%m-%d %H:%M:%S') }}</span>
+                </div>
+            </div>
+            <div class="config-actions">
+                <button class="btn btn-primary" onclick="editConfig('{{ config_file.path }}')">
+                    <i class="fas fa-edit"></i> Edit
+                </button>
+                <button class="btn btn-secondary" onclick="viewConfig('{{ config_file.path }}')">
+                    <i class="fas fa-eye"></i> View
+                </button>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% if not config_files %}
+    <div class="empty-state">
+        <i class="fas fa-folder-open"></i>
+        <h3>No Configuration Files Found</h3>
+        <p>No configuration files were found in the project directory.</p>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+function editConfig(filePath) {
+    // Open file in editor (this would typically open a modal or redirect to an editor)
+    alert('Edit functionality would open: ' + filePath);
+}
+
+function viewConfig(filePath) {
+    // View file contents
+    alert('View functionality would show: ' + filePath);
+}
+</script>
+{% endblock %}

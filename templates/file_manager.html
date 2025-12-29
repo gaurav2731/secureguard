@@ -1,0 +1,599 @@
+{% extends "base.html" %}
+
+{% block title %}File Manager - SecureGuard Enhanced Firewall{% endblock %}
+
+{% block head %}
+<style>
+    .file-manager-layout {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 20px;
+        height: calc(100vh - 200px);
+    }
+
+    .file-tree {
+        background: var(--secondary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        padding: 15px;
+        overflow-y: auto;
+    }
+
+    .file-tree-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .file-tree-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primary-text);
+        margin: 0;
+    }
+
+    .file-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: var(--transition-fast);
+        margin-bottom: 2px;
+    }
+
+    .file-item:hover {
+        background: var(--tertiary-bg);
+    }
+
+    .file-item.active {
+        background: rgba(0, 255, 255, 0.1);
+        border-left: 3px solid var(--neon-blue);
+    }
+
+    .file-icon {
+        width: 16px;
+        height: 16px;
+        color: var(--secondary-text);
+    }
+
+    .file-name {
+        flex: 1;
+        font-size: 0.9rem;
+        color: var(--primary-text);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .file-actions {
+        opacity: 0;
+        transition: var(--transition-fast);
+    }
+
+    .file-item:hover .file-actions {
+        opacity: 1;
+    }
+
+    .file-action-btn {
+        background: none;
+        border: none;
+        color: var(--muted-text);
+        cursor: pointer;
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 0.8rem;
+    }
+
+    .file-action-btn:hover {
+        color: var(--neon-blue);
+        background: rgba(0, 255, 255, 0.1);
+    }
+
+    .file-editor {
+        background: var(--secondary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .editor-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-bottom: 1px solid var(--border-color);
+        background: var(--tertiary-bg);
+    }
+
+    .editor-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primary-text);
+        margin: 0;
+        font-family: 'Courier New', monospace;
+    }
+
+    .editor-actions {
+        display: flex;
+        gap: 10px;
+    }
+
+    .editor-content {
+        flex: 1;
+        position: relative;
+    }
+
+    .code-editor {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        background: var(--primary-bg);
+        color: var(--primary-text);
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        padding: 15px;
+        resize: none;
+        line-height: 1.4;
+    }
+
+    .editor-tabs {
+        display: flex;
+        gap: 2px;
+        margin-bottom: 10px;
+        overflow-x: auto;
+    }
+
+    .editor-tab {
+        background: var(--tertiary-bg);
+        border: 1px solid var(--border-color);
+        border-bottom: none;
+        padding: 8px 15px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        color: var(--secondary-text);
+        border-radius: 6px 6px 0 0;
+        transition: var(--transition-fast);
+        white-space: nowrap;
+    }
+
+    .editor-tab.active {
+        background: var(--secondary-bg);
+        color: var(--primary-text);
+        border-color: var(--neon-blue);
+    }
+
+    .editor-tab:hover {
+        background: var(--secondary-bg);
+        color: var(--primary-text);
+    }
+
+    .editor-tab .close-btn {
+        margin-left: 8px;
+        color: var(--muted-text);
+        font-weight: bold;
+    }
+
+    .editor-tab .close-btn:hover {
+        color: var(--neon-red);
+    }
+
+    .file-upload-area {
+        border: 2px dashed var(--border-color);
+        border-radius: 8px;
+        padding: 40px;
+        text-align: center;
+        color: var(--muted-text);
+        transition: var(--transition-fast);
+        cursor: pointer;
+        margin: 20px 0;
+    }
+
+    .file-upload-area:hover {
+        border-color: var(--neon-blue);
+        background: rgba(0, 255, 255, 0.05);
+    }
+
+    .file-upload-area.dragover {
+        border-color: var(--neon-green);
+        background: rgba(0, 255, 0, 0.1);
+    }
+
+    .upload-icon {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: var(--secondary-text);
+    }
+
+    .context-menu {
+        position: absolute;
+        background: var(--secondary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        min-width: 150px;
+        display: none;
+    }
+
+    .context-menu-item {
+        padding: 10px 15px;
+        cursor: pointer;
+        color: var(--primary-text);
+        transition: var(--transition-fast);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .context-menu-item:last-child {
+        border-bottom: none;
+    }
+
+    .context-menu-item:hover {
+        background: var(--tertiary-bg);
+    }
+
+    .context-menu-item.danger {
+        color: var(--neon-red);
+    }
+
+    .new-file-modal,
+    .rename-modal {
+        display: none;
+        position: fixed;
+        z-index: 1001;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(5px);
+    }
+
+    .modal-content {
+        background: var(--secondary-bg);
+        margin: 15% auto;
+        padding: 30px;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+    }
+
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .modal-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: var(--primary-text);
+        margin: 0;
+    }
+
+    .modal-close {
+        background: none;
+        border: none;
+        color: var(--muted-text);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .modal-close:hover {
+        color: var(--neon-red);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--primary-text);
+        font-weight: 500;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 10px 12px;
+        background: var(--tertiary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        color: var(--primary-text);
+        font-size: 1rem;
+    }
+
+    .form-input:focus {
+        outline: none;
+        border-color: var(--neon-blue);
+        box-shadow: 0 0 0 2px rgba(0, 255, 255, 0.2);
+    }
+
+    .modal-actions {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+
+    .btn-secondary {
+        background: var(--tertiary-bg);
+        color: var(--primary-text);
+        border: 1px solid var(--border-color);
+    }
+
+    .btn-secondary:hover {
+        background: var(--border-color);
+    }
+
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 15px;
+        padding: 8px 12px;
+        background: var(--tertiary-bg);
+        border-radius: 6px;
+        font-size: 0.9rem;
+    }
+
+    .breadcrumb-item {
+        color: var(--secondary-text);
+        cursor: pointer;
+    }
+
+    .breadcrumb-item:hover {
+        color: var(--neon-blue);
+    }
+
+    .breadcrumb-item.active {
+        color: var(--primary-text);
+        font-weight: 500;
+    }
+
+    .breadcrumb-separator {
+        color: var(--muted-text);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="fade-in">
+    <!-- Header -->
+    <div class="card">
+        <div class="card-header">
+            <h1 class="card-title">
+                <i class="fas fa-folder-open"></i>
+                File Manager
+            </h1>
+            <div class="status-indicator good">
+                <div class="status-dot"></div>
+                File System Active
+            </div>
+        </div>
+        <div class="card-content">
+            <p>Browse, edit, and manage project files with syntax highlighting and real-time editing capabilities.</p>
+        </div>
+    </div>
+
+    <!-- File Manager Layout -->
+    <div class="file-manager-layout">
+        <!-- File Tree -->
+        <div class="file-tree">
+            <div class="file-tree-header">
+                <h3 class="file-tree-title">Project Files</h3>
+                <div class="file-actions">
+                    <button class="btn" onclick="showNewFileModal()">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <button class="btn" onclick="refreshFileTree()">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="breadcrumb">
+                <i class="fas fa-home"></i>
+                <span class="breadcrumb-item active">secureguard</span>
+            </div>
+
+            <div id="fileTree">
+                <!-- File tree will be populated by JavaScript -->
+                <div class="file-item" data-path="app_enhanced.py" data-type="file">
+                    <i class="fas fa-file-code file-icon"></i>
+                    <span class="file-name">app_enhanced.py</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('app_enhanced.py')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="config_enhanced.py" data-type="file">
+                    <i class="fas fa-file-code file-icon"></i>
+                    <span class="file-name">config_enhanced.py</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('config_enhanced.py')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="cluster_manager.py" data-type="file">
+                    <i class="fas fa-file-code file-icon"></i>
+                    <span class="file-name">cluster_manager.py</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('cluster_manager.py')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="redis_connection.py" data-type="file">
+                    <i class="fas fa-file-code file-icon"></i>
+                    <span class="file-name">redis_connection.py</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('redis_connection.py')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="test_changes.py" data-type="file">
+                    <i class="fas fa-file-code file-icon"></i>
+                    <span class="file-name">test_changes.py</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('test_changes.py')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="templates" data-type="directory">
+                    <i class="fas fa-folder file-icon"></i>
+                    <span class="file-name">templates</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="toggleDirectory('templates')">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="static" data-type="directory">
+                    <i class="fas fa-folder file-icon"></i>
+                    <span class="file-name">static</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="toggleDirectory('static')">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="file-item" data-path="TODO.md" data-type="file">
+                    <i class="fas fa-file-alt file-icon"></i>
+                    <span class="file-name">TODO.md</span>
+                    <div class="file-actions">
+                        <button class="file-action-btn" onclick="editFile('TODO.md')">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Editor Panel -->
+        <div class="file-editor">
+            <div class="editor-header">
+                <h3 class="editor-title" id="currentFile">No file selected</h3>
+                <div class="editor-actions">
+                    <button class="btn" onclick="saveFile()" id="saveBtn" disabled>
+                        <i class="fas fa-save"></i> Save
+                    </button>
+                    <button class="btn" onclick="downloadFile()" id="downloadBtn" disabled>
+                        <i class="fas fa-download"></i> Download
+                    </button>
+                </div>
+            </div>
+
+            <div class="editor-tabs" id="editorTabs">
+                <!-- Tabs will be added dynamically -->
+            </div>
+
+            <div class="editor-content">
+                <div class="file-upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3>Drop files here or click to browse</h3>
+                    <p>Upload files to edit them in the code editor</p>
+                    <input type="file" id="fileInput" multiple style="display: none;">
+                </div>
+
+                <textarea class="code-editor" id="codeEditor" style="display: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Context Menu -->
+<div class="context-menu" id="contextMenu">
+    <div class="context-menu-item" onclick="editFile()">
+        <i class="fas fa-edit"></i> Edit
+    </div>
+    <div class="context-menu-item" onclick="renameFile()">
+        <i class="fas fa-i-cursor"></i> Rename
+    </div>
+    <div class="context-menu-item" onclick="duplicateFile()">
+        <i class="fas fa-copy"></i> Duplicate
+    </div>
+    <div class="context-menu-item danger" onclick="deleteFile()">
+        <i class="fas fa-trash"></i> Delete
+    </div>
+</div>
+
+<!-- New File Modal -->
+<div class="new-file-modal" id="newFileModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Create New File</h3>
+            <button class="modal-close" onclick="closeModal('newFileModal')">&times;</button>
+        </div>
+        <form onsubmit="createFile(event)">
+            <div class="form-group">
+                <label class="form-label" for="newFileName">File Name:</label>
+                <input type="text" id="newFileName" class="form-input" placeholder="example.py" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="newFileType">File Type:</label>
+                <select id="newFileType" class="form-input">
+                    <option value="python">Python (.py)</option>
+                    <option value="javascript">JavaScript (.js)</option>
+                    <option value="html">HTML (.html)</option>
+                    <option value="css">CSS (.css)</option>
+                    <option value="markdown">Markdown (.md)</option>
+                    <option value="text">Text (.txt)</option>
+                </select>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('newFileModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">Create File</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Rename Modal -->
+<div class="rename-modal" id="renameModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Rename File</h3>
+            <button class="modal-close" onclick="closeModal('renameModal')">&times;</button>
+        </div>
+        <form onsubmit="renameFileSubmit(event)">
+            <div class="form-group">
+                <label class="form-label" for="renameFileName">New Name:</label>
+                <input type="text" id="renameFileName" class="form-input" required>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('renameModal')">Cancel</button>
+                <button type="submit" class="btn btn-primary">Rename</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/file_manager.js') }}"></script>
+{% endblock %}

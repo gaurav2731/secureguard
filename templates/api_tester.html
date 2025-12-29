@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-container">
+    <div class="dashboard-header">
+        <h1><i class="fas fa-flask"></i> API Tester</h1>
+        <p class="subtitle">Test and interact with SecureGuard API endpoints</p>
+    </div>
+
+    {% if error %}
+    <div class="alert alert-error">
+        <i class="fas fa-exclamation-triangle"></i>
+        <strong>Error:</strong> {{ error }}
+    </div>
+    {% endif %}
+
+    <div class="api-grid">
+        {% for endpoint in api_endpoints %}
+        <div class="api-card">
+            <div class="api-header">
+                <span class="api-method method-{{ endpoint.method.lower() }}">{{ endpoint.method }}</span>
+                <h3 class="api-path">{{ endpoint.path }}</h3>
+            </div>
+            <div class="api-description">
+                <p>{{ endpoint.description }}</p>
+            </div>
+            <div class="api-actions">
+                <button class="btn btn-primary" onclick="testEndpoint('{{ endpoint.method }}', '{{ endpoint.path }}')">
+                    <i class="fas fa-play"></i> Test
+                </button>
+                <button class="btn btn-secondary" onclick="showDocs('{{ endpoint.path }}')">
+                    <i class="fas fa-book"></i> Docs
+                </button>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="api-response-panel">
+        <div class="panel-header">
+            <h2><i class="fas fa-terminal"></i> API Response</h2>
+            <button class="btn btn-secondary" onclick="clearResponse()">
+                <i class="fas fa-trash"></i> Clear
+            </button>
+        </div>
+        <div class="response-container">
+            <pre id="apiResponse" class="api-response">Click "Test" on any endpoint above to see the response here.</pre>
+        </div>
+    </div>
+</div>
+
+<script>
+function testEndpoint(method, path) {
+    const responseElement = document.getElementById('apiResponse');
+    responseElement.textContent = 'Loading...';
+
+    fetch(path, {
+        method: method,
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => {
+        const status = response.status;
+        return response.text().then(text => {
+            try {
+                const json = JSON.parse(text);
+                return { status, data: json };
+            } catch {
+                return { status, data: text };
+            }
+        });
+    })
+    .then(result => {
+        const formatted = JSON.stringify({
+            status: result.status,
+            data: result.data
+        }, null, 2);
+        responseElement.textContent = formatted;
+        responseElement.className = 'api-response success';
+    })
+    .catch(error => {
+        responseElement.textContent = `Error: ${error.message}`;
+        responseElement.className = 'api-response error';
+    });
+}
+
+function showDocs(path) {
+    alert(`Documentation for ${path} would be shown here.`);
+}
+
+function clearResponse() {
+    const responseElement = document.getElementById('apiResponse');
+    responseElement.textContent = 'Click "Test" on any endpoint above to see the response here.';
+    responseElement.className = 'api-response';
+}
+</script>
+
+<style>
+.api-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.api-card {
+    background: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    transition: all var(--transition-fast);
+}
+
+.api-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 255, 255, 0.1);
+}
+
+.api-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.api-method {
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.method-get { background: rgba(0, 255, 0, 0.2); color: var(--neon-green); }
+.method-post { background: rgba(255, 128, 0, 0.2); color: var(--neon-orange); }
+.method-put { background: rgba(0, 255, 255, 0.2); color: var(--neon-blue); }
+.method-delete { background: rgba(255, 0, 64, 0.2); color: var(--neon-red); }
+
+.api-path {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    color: var(--primary-text);
+    margin: 0;
+}
+
+.api-description {
+    margin-bottom: 15px;
+}
+
+.api-description p {
+    color: var(--muted-text);
+    margin: 0;
+}
+
+.api-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.api-response-panel {
+    background: var(--secondary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--tertiary-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.panel-header h2 {
+    margin: 0;
+    color: var(--primary-text);
+}
+
+.response-container {
+    padding: 20px;
+}
+
+.api-response {
+    background: var(--primary-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-break: break-all;
+    max-height: 400px;
+    overflow-y: auto;
+    color: var(--primary-text);
+}
+
+.api-response.success {
+    border-color: var(--neon-green);
+    background: rgba(0, 255, 0, 0.05);
+}
+
+.api-response.error {
+    border-color: var(--neon-red);
+    background: rgba(255, 0, 64, 0.05);
+}
+</style>
+{% endblock %}

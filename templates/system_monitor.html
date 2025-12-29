@@ -1,0 +1,42 @@
+<span class="metric-label">CPU Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.cpu_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ metrics.cpu_usage }}%"></div>
+                    </div>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Memory Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.memory_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ metrics.memory_usage }}%"></div>
+                    </div>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Disk Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.disk_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ metrics.disk_usage }}%"></div>
+                    </div>
+                </div>
+=======
+                <div class="metric-item">
+                    <span class="metric-label">CPU Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.cpu_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill cpu-fill"></div>
+                    </div>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Memory Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.memory_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill memory-fill"></div>
+                    </div>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Disk Usage:</span>
+                    <span class="metric-value">{{ "%.1f"|format(metrics.disk_usage) }}%</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill disk-fill"></div>
+                    </div>
+                </div>
